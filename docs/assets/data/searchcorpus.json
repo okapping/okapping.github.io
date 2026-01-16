@@ -3,25 +3,17 @@
 { 
 "title"    : "アブストラクトゲーム&#39;s プライバシーポリシー", 
 "desc"     : "アブストラクトゲーム&#39;s プライバシーポリシー", 
-"category" : "Abstract-Games", 
+"category" : "Abstract-Games, ios-app", 
 "url"      : "/2026-01-14-abstract-games-privacy-policy-JP/", 
 "date"     : "January 14, 2026" 
 }, 
  
 { 
-"title"    : "Sample blog post to learn markdown tips", 
-"desc"     : "Sample blog post to learn markdown tips", 
-"category" : "test", 
-"url"      : "/2020-02-28-sample-markdown/", 
-"date"     : "February 28, 2020" 
-}, 
- 
-{ 
-"title"    : "Flake it till you make it", 
-"desc"     : "Flake it till you make it", 
-"category" : "books, test", 
-"url"      : "/2020-02-26-flake-it-till-you-make-it/", 
-"date"     : "February 26, 2020" 
+"title"    : "Abstract Games&#39;s privacy policy", 
+"desc"     : "Abstract Games&#39;s privacy policy", 
+"category" : "Abstract-Games, ios-app", 
+"url"      : "/2026-01-14-abstract-games-privacy-policy-EN/", 
+"date"     : "January 14, 2026" 
 }, 
  
  
@@ -34,8 +26,8 @@
 }, 
  
 { 
-"title"    : "okapping&#39;s Blog", 
-"desc"     : "okapping&#39;s Blog", 
+"title"    : "okapping&#39;s Blog!!!", 
+"desc"     : "okapping&#39;s Blog!!!", 
 "category" : "page", 
 "url"      : "/", 
 "date"     : "January 1, 1970" 
