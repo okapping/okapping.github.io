@@ -1,6 +1,14 @@
 [ 
  
 { 
+"title"    : "アブストラクトゲーム&#39;s プライバシーポリシー", 
+"desc"     : "アブストラクトゲーム&#39;s プライバシーポリシー", 
+"category" : "Abstract-Games", 
+"url"      : "/2026-01-14-abstract-games-privacy-policy-JP/", 
+"date"     : "January 14, 2026" 
+}, 
+ 
+{ 
 "title"    : "Sample blog post to learn markdown tips", 
 "desc"     : "Sample blog post to learn markdown tips", 
 "category" : "test", 
@@ -26,8 +34,8 @@
 }, 
  
 { 
-"title"    : "My website", 
-"desc"     : "My website", 
+"title"    : "okapping&#39;s Blog", 
+"desc"     : "okapping&#39;s Blog", 
 "category" : "page", 
 "url"      : "/", 
 "date"     : "January 1, 1970" 
