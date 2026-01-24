@@ -1,8 +1,16 @@
 [ 
  
 { 
-"title"    : "アブストラクトゲーム&#39;s プライバシーポリシー", 
-"desc"     : "アブストラクトゲーム&#39;s プライバシーポリシー", 
+"title"    : "年表巻き プライバシーポリシー", 
+"desc"     : "年表巻き プライバシーポリシー", 
+"category" : "Nenpyo-maki, ios-app", 
+"url"      : "/2026-01-14-nenpyo-maki-privacy-policy-JP/", 
+"date"     : "January 14, 2026" 
+}, 
+ 
+{ 
+"title"    : "アブストラクトゲームズ プライバシーポリシー", 
+"desc"     : "アブストラクトゲームズ プライバシーポリシー", 
 "category" : "Abstract-Games, ios-app", 
 "url"      : "/2026-01-14-abstract-games-privacy-policy-JP/", 
 "date"     : "January 14, 2026" 
