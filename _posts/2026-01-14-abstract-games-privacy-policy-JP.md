@@ -1,8 +1,9 @@
 ---
 layout: post
 title: アブストラクトゲームズ プライバシーポリシー
-thumbnail-img: /assets/img/abstract-games-app-icon.png
+thumbnail-img: /assets/img/AbstractGames/abstract-games-app-icon.png
 tags: [Abstract-Games, ios-app]
+show-avatar: false
 ---
 Naoya Okayama（以下、開発者）は、アブストラクトゲームズの運営に関し、個人情報の保護に関係する法令およびガイドラインを順守するとともに、ユーザーの皆さまからご提供いただいた情報を以下の通り取り扱います。なお、アブストラクトゲームズのご利用を開始に伴い、このプライバシーポリシーに同意したものとします。
 

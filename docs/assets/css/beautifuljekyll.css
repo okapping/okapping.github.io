@@ -2,14 +2,14 @@
 
 :root {
   /* config file CSS variables */
-  --page-col: #FFFFFF;
-  --text-col: #404040;
+  --page-col: #232930;
+  --text-col: #d2dbe8;
   --link-col: #008AFF;
   --hover-col: #0085A1;
-  --navbar-col: #EAEAEA;
-  --navbar-text-col: #404040;
+  --navbar-col: #232930;
+  --navbar-text-col: #d2dbe8;
   --navbar-border-col: #DDDDDD;
-  --footer-col: #EAEAEA;
+  --footer-col: #0e1b2c;
   --footer-text-col: #777777;
   --footer-link-col: #404040;
   --footer-hover-col: #0085A1;
@@ -534,10 +534,12 @@ footer .footer-custom-content {
   width: 12rem;
 }
 .post-preview .post-image {
-  filter: grayscale(40%);
+  filter: brightness(1); /* 初期状態を少し暗く */
+/*  filter: grayscale(40%);*/
 }
 .post-preview .post-image:hover {
-  filter: grayscale(0%);
+  filter: brightness(1.2); /* ホバー時に元の明るさに戻す */
+/*  filter: grayscale(0%);*/
 }
 .post-preview .post-image img {
   max-height: 100%;

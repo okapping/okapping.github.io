@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Abstract Games's privacy policy
-thumbnail-img: /assets/img/abstract-games-app-icon.png
+thumbnail-img: /assets/img/AbstractGames/abstract-games-app-icon.png
 tags: [Abstract-Games, ios-app]
+show-avatar: false
 ---
 Naoya Okayama (hereinafter referred to as the developer) takes the privacy of his customers and users seriously. The developer recognizes that privacy is an important issue, so he designs and operates my services with the protection of your privacy in mind. This privacy policy explains what kind of information the developer collects, uses, and the security of your information in Abstract Games. By using Abstract Games, you consent to this privacy policy.
 
