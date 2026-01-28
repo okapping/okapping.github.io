@@ -5,6 +5,22 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 
+########################
+# --- 独自パラメータ --- #
+########################
+
+### AbstractGames
+abstract-games-download-link: "https://apps.apple.com/jp/app/abstract-games/id6757924743"
+privacypolicy-page: ""
+# アプリダウンロードのボタン
+app-download-badge-black-en: "/assets/img/app-download-badge/app-download-badge-black-en.svg"
+app-download-badge-white-en: "/assets/img/app-download-badge/app-download-badge-white-en.svg"
+app-download-badge-black-jp: "/assets/img/app-download-badge/app-download-badge-black-jp.svg"
+app-download-badge-white-jp: "/assets/img/app-download-badge/app-download-badge-white-jp.svg"
+
+icon-security: "/assets/img/icon/security.svg#symbol"
+icon-good-sign: "/assets/img/icon/good-sign.svg#symbol"
+
 ############################
 # --- Required options --- #
 ############################
@@ -41,7 +57,6 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
-
 #####################################
 # --- Footer social media links --- #
 #####################################
@@ -51,9 +66,9 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "app_okapping@zohomail.jp"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: deanattali
-#  github: daattali
+  rss: true # remove this line if you don't want to show an RSS link at the bottom
+  #  facebook: deanattali
+  #  github: daattali
   twitter: app_okapping
 #  patreon: DeanAttali
 #  youtube: "@daattali"
@@ -156,7 +171,7 @@ footer-hover-col: "#0085A1"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
+# navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
@@ -276,16 +291,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
@@ -307,4 +320,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
