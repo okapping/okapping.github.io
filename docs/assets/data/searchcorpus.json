@@ -9,6 +9,14 @@
 }, 
  
 { 
+"title"    : "年表巻き", 
+"desc"     : "年表巻き", 
+"category" : "Nenpyo-maki, ios-app", 
+"url"      : "/nenpyo-maki-JP/", 
+"date"     : "January 25, 2026" 
+}, 
+ 
+{ 
 "title"    : "アブストラクトゲームズ プライバシーポリシー", 
 "desc"     : "アブストラクトゲームズ プライバシーポリシー", 
 "category" : "Abstract-Games, ios-app", 

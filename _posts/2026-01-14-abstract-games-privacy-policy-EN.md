@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Abstract Games's privacy policy
-thumbnail-img: /assets/img/AbstractGames/abstract-games-app-icon.png
+thumbnail-img: /assets/img/abstract-games/abstract-games-app-icon.png
 tags: [Abstract-Games, ios-app]
 show-avatar: false
 ---
@@ -27,4 +27,3 @@ This privacy policy may change from time to time. If the developer decides to ch
 
 ### 4. How to contact the developer
 Please send any questions, comments, or other inquiries related to this privacy policy or Abstract Games from AppStore Review, Developer's X. The developer will make every effort to resolve your concerns.
-

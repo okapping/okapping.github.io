@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 年表巻き プライバシーポリシー
-thumbnail-img: /assets/img/nenpyo-maki-app-icon.png
+thumbnail-img: /assets/img/nenpyo-maki/nenpyo-maki-app-icon.png
 tags: [Nenpyo-maki, ios-app]
 show-avatar: false
 ---
@@ -27,4 +27,3 @@ Naoya Okayama（以下、開発者）は、年表巻きの運営に関し、個�
 
 ### 4. 開発者との連絡手段
 本プライバシーポリシーまたは年表巻きに関連するご質問、ご意見、その他のご連絡は開発者のX、または年表巻きのAppStoreレビューからお送りください。
-

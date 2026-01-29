@@ -1,16 +1,21 @@
 ---
 layout: page
 title: アブストラクトゲームズ
-thumbnail-img: /assets/img/AbstractGames/abstract-games-app-icon.png
-cover-img: /assets/img/AbstractGames/abstractgames-ackground.png
-before-content: custom/abstract-games-app-intro.html
+thumbnail-img: /assets/img/abstract-games/abstract-games-app-icon.png
+cover-img: /assets/img/abstract-games/abstractgames-ackground.png
+footer-extra: custom/okappings-app-index.html
 tags: [Abstract-Games, ios-app]
 
 show-avatar: false
 ---
+{% include custom/abstract-games-app-release.html %}
+
 #### 「テーマ性」や「運要素がない」ボードゲームを多数収録しております。
+
 ### 収録ゲーム一覧
+
 #### 現在遊べるゲーム
+
 - マルバツゲーム
 - コネクトフォー
 - リバーシ
@@ -18,6 +23,7 @@ show-avatar: false
 - ホースシュー
 
 #### 今後追加予定
+
 - チェッカー
 - 五目並べ
 - 5五将棋
@@ -39,8 +45,9 @@ show-avatar: false
   </svg>
   プライバシー
 </h4>
-ユーザー様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。
+お客様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。<br>
+    全てオフラインで動作します。
 
 ### お問い合わせ
-操作方法やこんなゲームを掲載してほしい等のご相談やご要望は随時お待ちしております。<br>
-お気軽に下記メールボタンや開発者X（Twitter）からお問い合わせください。
+操作方法の不明点や、ゲームの追加等のご相談やご要望はいつでもお待ちしております。<br>
+お気軽に下記メールや開発者X（Twitter）からお問い合わせください。

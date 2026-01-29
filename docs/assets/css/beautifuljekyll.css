@@ -1130,3 +1130,19 @@ pre {
     color: var(--text-col);
     /*stroke: red;*/
 }
+
+.app-list {
+    display: flex;                     /* Flexboxで横並びに */
+    justify-content: center;           /* 中央揃え */
+    flex-wrap: wrap;                  /* 折り返しを有効に */
+}
+.app-container {
+    margin: 10px;                     /* アプリ間のスペース */
+    text-align: center;               /* テキストも中央揃え */
+}
+.app-image {
+    width: 80px;
+}
+.app-name {
+    margin: 10px;  
+}

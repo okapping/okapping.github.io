@@ -5,12 +5,27 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 
-########################
+##########################
 # --- 独自パラメータ --- #
-########################
+##########################
 
-### AbstractGames
-abstract-games-download-link: "https://apps.apple.com/jp/app/abstract-games/id6757924743"
+### アプリ別
+yarn-holder:
+  id: 1
+  name: "YarnHolder"
+  icon: "/assets/img/yarn-holder/yarn-holder-app-icon.png"
+  download-link: "https://apps.apple.com/jp/app/yarn-holder/id6756721966"
+abstract-games:
+  id: 2
+  name: "Abstract Games"
+  icon: "/assets/img/abstract-games/abstract-games-app-icon.png"
+  download-link: "https://apps.apple.com/jp/app/abstract-games/id6757924743"
+nenpyo-maki:
+  id: 3
+  name: "年表巻き"
+  icon: "/assets/img/nenpyo-maki/nenpyo-maki-app-icon.png"
+  download-link: "https://apps.apple.com/jp/app/%E5%B9%B4%E8%A1%A8%E5%B7%BB%E3%81%8D/id6758244948"
+
 privacypolicy-page: ""
 # アプリダウンロードのボタン
 app-download-badge-black-en: "/assets/img/app-download-badge/app-download-badge-black-en.svg"
