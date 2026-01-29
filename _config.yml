@@ -15,6 +15,7 @@ yarn-holder:
   name: "YarnHolder"
   icon: "/assets/img/yarn-holder/yarn-holder-app-icon.png"
   download-link: "https://apps.apple.com/jp/app/yarn-holder/id6756721966"
+  original-site: "https://yarnholder.github.io/index.html"
 abstract-games:
   id: 2
   name: "Abstract Games"
@@ -26,13 +27,13 @@ nenpyo-maki:
   icon: "/assets/img/nenpyo-maki/nenpyo-maki-app-icon.png"
   download-link: "https://apps.apple.com/jp/app/%E5%B9%B4%E8%A1%A8%E5%B7%BB%E3%81%8D/id6758244948"
 
-privacypolicy-page: ""
-# アプリダウンロードのボタン
+### アプリダウンロードのボタン
 app-download-badge-black-en: "/assets/img/app-download-badge/app-download-badge-black-en.svg"
 app-download-badge-white-en: "/assets/img/app-download-badge/app-download-badge-white-en.svg"
 app-download-badge-black-jp: "/assets/img/app-download-badge/app-download-badge-black-jp.svg"
 app-download-badge-white-jp: "/assets/img/app-download-badge/app-download-badge-white-jp.svg"
 
+### アイコン
 icon-security: "/assets/img/icon/security.svg#symbol"
 icon-good-sign: "/assets/img/icon/good-sign.svg#symbol"
 
@@ -51,10 +52,11 @@ author: okapping
 ###############################################
 
 navbar-links:
-#  About Me: "aboutme"
-#  Resources:
-#    - Beautiful Jekyll: "https://beautifuljekyll.com"
-#    - Learn markdown: "https://www.markdowntutorial.com/"
+  About Me: "aboutme"
+  apps:
+    - Yarn Holder: "https://yarnholder.github.io/index.html"
+    - Abstract Games: "abstract-games-JP"
+    - 年表巻き: "nenpyo-maki-JP"
 #  Author's home: "https://deanattali.com"
 
 ################
@@ -70,7 +72,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+# title-img: /path/to/image
 
 #####################################
 # --- Footer social media links --- #

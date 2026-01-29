@@ -1,40 +1,16 @@
 [ 
  
 { 
-"title"    : "年表巻き プライバシーポリシー", 
-"desc"     : "年表巻き プライバシーポリシー", 
-"category" : "Nenpyo-maki, ios-app", 
-"url"      : "/nenpyo-maki-privacy-policy-JP/", 
-"date"     : "January 25, 2026" 
-}, 
- 
-{ 
-"title"    : "年表巻き", 
-"desc"     : "年表巻き", 
+"title"    : "iosアプリ、「年表巻き」をリリースしました！", 
+"desc"     : "iosアプリ、「年表巻き」をリリースしました！", 
 "category" : "Nenpyo-maki, ios-app", 
 "url"      : "/nenpyo-maki-JP/", 
 "date"     : "January 25, 2026" 
 }, 
  
 { 
-"title"    : "アブストラクトゲームズ プライバシーポリシー", 
-"desc"     : "アブストラクトゲームズ プライバシーポリシー", 
-"category" : "Abstract-Games, ios-app", 
-"url"      : "/abstract-games-privacy-policy-JP/", 
-"date"     : "January 14, 2026" 
-}, 
- 
-{ 
-"title"    : "Abstract Games&#39;s privacy policy", 
-"desc"     : "Abstract Games&#39;s privacy policy", 
-"category" : "Abstract-Games, ios-app", 
-"url"      : "/abstract-games-privacy-policy-EN/", 
-"date"     : "January 14, 2026" 
-}, 
- 
-{ 
-"title"    : "アブストラクトゲームズ", 
-"desc"     : "アブストラクトゲームズ", 
+"title"    : "iosアプリ、アブストラクトゲームズをリリースしました！", 
+"desc"     : "iosアプリ、アブストラクトゲームズをリリースしました！", 
 "category" : "Abstract-Games, ios-app", 
 "url"      : "/abstract-games-JP/", 
 "date"     : "January 14, 2026" 
@@ -54,6 +30,30 @@
 "desc"     : "okapping&#39;s Blog!!!", 
 "category" : "page", 
 "url"      : "/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Abstract Games&#39;s privacy policy", 
+"desc"     : "Abstract Games&#39;s privacy policy", 
+"category" : "Abstract-Games, ios-app", 
+"url"      : "/abstract-games/privacy-policy-EN/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "年表巻き プライバシーポリシー", 
+"desc"     : "年表巻き プライバシーポリシー", 
+"category" : "Nenpyo-maki, ios-app", 
+"url"      : "/nenpyo-maki/privacy-policy-JP/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "アブストラクトゲームズ プライバシーポリシー", 
+"desc"     : "アブストラクトゲームズ プライバシーポリシー", 
+"category" : "Abstract-Games, ios-app", 
+"url"      : "/abstract-games/privacy-policy-JP/", 
 "date"     : "January 1, 1970" 
 }, 
  

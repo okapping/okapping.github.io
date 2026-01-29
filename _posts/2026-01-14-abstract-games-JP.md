@@ -1,6 +1,6 @@
 ---
 layout: page
-title: アブストラクトゲームズ
+title: iosアプリ、アブストラクトゲームズをリリースしました！
 thumbnail-img: /assets/img/abstract-games/abstract-games-app-icon.png
 cover-img: /assets/img/abstract-games/abstractgames-ackground.png
 footer-extra: custom/okappings-app-index.html
@@ -49,5 +49,9 @@ show-avatar: false
     全てオフラインで動作します。
 
 ### お問い合わせ
-操作方法の不明点や、ゲームの追加等のご相談やご要望はいつでもお待ちしております。<br>
+操作方法の不明点等のご相談や、ゲームの追加等のご要望はいつでもお待ちしております。<br>
 お気軽に下記メールや開発者X（Twitter）からお問い合わせください。
+
+### リンク
+- [プライバシーポリシー（日本語）](../abstract-games/privacy-policy-JP)
+- [プライバシーポリシー（English）](../abstract-games/privacy-policy-EN)

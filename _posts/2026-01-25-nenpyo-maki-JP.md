@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 年表巻き
+title: iosアプリ、「年表巻き」をリリースしました！
 thumbnail-img: /assets/img/nenpyo-maki/nenpyo-maki-app-icon.png
 tags: [Nenpyo-maki, ios-app]
 footer-extra: custom/okappings-app-index.html
@@ -38,5 +38,8 @@ iosの基本の操作性に倣うことで、とてもシンプルなデザイ�
     デバイスの同期も行っておらず、完全にオフラインで動作します。
 
 ### お問い合わせ
-操作方法の不明点や、ゲームの追加等のご相談やご要望はいつでもお待ちしております。<br>
+操作方法の不明点等のご相談や、追加機能等のご要望はいつでもお待ちしております。<br>
 お気軽に下記メールや開発者X（Twitter）からお問い合わせください。
+
+### リンク
+- [プライバシーポリシー（日本語）](../nenpyo-maki/privacy-policy-JP)
