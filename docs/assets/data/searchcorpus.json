@@ -1,0 +1,92 @@
+[ 
+ 
+{ 
+"title"    : "VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする", 
+"desc"     : "VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする", 
+"category" : "VSCodium", 
+"url"      : "/open_pyxel_with_vscodium/", 
+"date"     : "June  6, 2026" 
+}, 
+ 
+{ 
+"title"    : "毛糸ホルダーアップデートしました。(ver.1.1.1)", 
+"desc"     : "毛糸ホルダーアップデートしました。(ver.1.1.1)", 
+"category" : "yarn-holder, ios-app", 
+"url"      : "/yarn-folder-update-ver110/", 
+"date"     : "April 17, 2026" 
+}, 
+ 
+{ 
+"title"    : "毛糸管理アプリ、毛糸ホルダーをリリースしました！", 
+"desc"     : "毛糸管理アプリ、毛糸ホルダーをリリースしました！", 
+"category" : "yarn-holder, ios-app", 
+"url"      : "/release-yarn-holder/", 
+"date"     : "February  3, 2026" 
+}, 
+ 
+{ 
+"title"    : "iosアプリ、「年表巻き」をリリースしました！", 
+"desc"     : "iosアプリ、「年表巻き」をリリースしました！", 
+"category" : "Nenpyo-maki, ios-app", 
+"url"      : "/nenpyo-maki-JP/", 
+"date"     : "January 25, 2026" 
+}, 
+ 
+{ 
+"title"    : "iosアプリ、アブストラクトゲームズをリリースしました！", 
+"desc"     : "iosアプリ、アブストラクトゲームズをリリースしました！", 
+"category" : "Abstract-Games, ios-app", 
+"url"      : "/abstract-games-JP/", 
+"date"     : "January 14, 2026" 
+}, 
+ 
+ 
+{ 
+"title"    : "About me", 
+"desc"     : "About me", 
+"category" : "page", 
+"url"      : "/aboutme/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Hello My Friend!!", 
+"desc"     : "Hello My Friend!!", 
+"category" : "page", 
+"url"      : "/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Abstract Games&#39;s privacy policy", 
+"desc"     : "Abstract Games&#39;s privacy policy", 
+"category" : "Abstract-Games, ios-app", 
+"url"      : "/abstract-games/privacy-policy-EN/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "年表巻き プライバシーポリシー", 
+"desc"     : "年表巻き プライバシーポリシー", 
+"category" : "Nenpyo-maki, ios-app", 
+"url"      : "/nenpyo-maki/privacy-policy-JP/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "アブストラクトゲームズ プライバシーポリシー", 
+"desc"     : "アブストラクトゲームズ プライバシーポリシー", 
+"category" : "Abstract-Games, ios-app", 
+"url"      : "/abstract-games/privacy-policy-JP/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Tag Index", 
+"desc"     : "Tag Index", 
+"category" : "page", 
+"url"      : "/tags/", 
+"date"     : "January 1, 1970" 
+} 
+ 
+]

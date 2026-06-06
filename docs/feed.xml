@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>okapping&apos;s Hello My Friend</title>
+    
+    
+    <description>This website is a virtual proof that I&apos;m awesome</description>
+    
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする</title>
+        
+        <dc:creator><![CDATA[ okapping ]]></dc:creator>
+        
+        <description>
+          
+          VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。
+そんなVSCodiumにも拡張機能を入れることができますが、
+VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。
+
+そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。
+
+VSIXファイルをダウンロードする
+まず下記サイトにて、pyxelと検索し、
+右側のボタンから、「Universal」を選択。
+https://cypherpunksamurai.github.io/vsix-downloader-webui/
+
+
+VSCodiumで開く
+拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了
+
+
+終わり
+pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。
+
+最初のリンクを見つけるのに若干苦労したため、ここに書き残します。
+
+VSCode拡張機能の公式ページからVSIXがダウンロードできるようになるといいのにと思いました。
+
+VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。
+
+        </description>
+        <pubDate>Sat, 06 Jun 2026 00:00:00 +0900</pubDate>
+        <link>/open_pyxel_with_vscodium/</link>
+        <guid isPermaLink="true">/open_pyxel_with_vscodium/</guid>
+      </item>
+    
+      <item>
+        <title>毛糸ホルダーアップデートしました。(ver.1.1.1)</title>
+        
+        <dc:creator><![CDATA[ okapping ]]></dc:creator>
+        
+        <description>
+          
+          毛糸管理アプリ「毛糸ホルダー」アップデートしました。
+
+初めてのバグ修正以外の機能のアップデートになります。
+
+〜主な追加機能の紹介〜
+①毛糸情報にギャラリータブを追加しました。
+
+　毛糸の情報として保存している画像や、在庫の詳細として保存している画像を
+　「ギャラリータブ」として一覧で確認できるようになりました。
+②毛糸情報のメモ欄を追加情報のタブへ移動しました。
+
+　これによりラベル情報タブがラベルの情報に専念できるようになりました。
+③画像が圧縮され、動作と容量が軽くなるようになりました。
+　これによりスムーズにギャラリータブを閲覧することができます。
+　※以前までにアップロード済みの画像ファイルが存在する場合、ギャラリータブが重くなる可能性があります。
+　　その場合は再度アップロードし直してみてください。
+④在庫の詳細画面にて、ラベルの情報が確認できるようになりました。
+
+　在庫の詳細の確認中にもラベルの情報へ素早くアクセスすることができるようになりました。
+その他不具合の修正
+
+  ipadにおいて全ての在庫から在庫情報を開いた時に、画面が切り替わらない不具合を修正しました。
+  その他細かい微修正を行いました。
+
+
+        </description>
+        <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+        <link>/yarn-folder-update-ver110/</link>
+        <guid isPermaLink="true">/yarn-folder-update-ver110/</guid>
+      </item>
+    
+      <item>
+        <title>毛糸管理アプリ、毛糸ホルダーをリリースしました！</title>
+        
+        <dc:creator><![CDATA[ okapping ]]></dc:creator>
+        
+        <description>
+          
+          この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！
+（といっても昨年12月にはすでにリリースしてましたが。。。）
+
+公式サイトも開設中。ぜひみてね。 
+↓
+
+    
+    毛糸ホルダー 公式サイト
+
+
+こだわり
+アプリを作るうえでの個人的なこだわりとして、
+apple以外の外部のシステムを使わないようにしています。
+
+同じアプリをandroidにも出そうとしたり、広告を表示させたりする際には、
+どうしても外部システムが必要になってしまいますが。
+
+あえてそれらを行わずに、appleデバイスに最適化された、
+使いやすい＆洗礼された美しいアプリを（これから頑張って）提供していこうと思います。
+
+swiftは楽しくて最高です。
+
+このブログはアプリ開発関連や、趣味のことなどを載せてみようと思います。
+ではまた。
+
+        </description>
+        <pubDate>Tue, 03 Feb 2026 00:00:00 +0900</pubDate>
+        <link>/release-yarn-holder/</link>
+        <guid isPermaLink="true">/release-yarn-holder/</guid>
+      </item>
+    
+      <item>
+        <title>iosアプリ、「年表巻き」をリリースしました！</title>
+        
+        <dc:creator><![CDATA[ okapping ]]></dc:creator>
+        
+        <description>
+          
+          
+    
+    
+        個人用年表管理アプリ
+        「年表巻き」をリリースしました！
+    
+    
+    全機能 &quot;無料&quot; で公開中！！
+    
+        
+            
+        
+    
+    
+        
+            
+        
+    
+
+
+個人向けの年表管理アプリです。
+
+「あれ何年前だっけな・・・？」とならないように、
+自分の歴史や経歴をアプリで管理してみませんか？
+
+アプリの特徴
+
+
+    
+      
+    
+  高い操作性
+
+
+iosの基本の操作性に倣うことで、とてもシンプルなデザインになっており、
+最初から作成を進めることができるように設計しております。
+
+
+  
+    
+  
+  プライバシー
+
+
+お客様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。
+    デバイスの同期も行っておらず、完全にオフラインで動作します。
+
+お問い合わせ
+操作方法の不明点等のご相談や、追加機能等のご要望はいつでもお待ちしております。
+お気軽に下記メールや開発者X（Twitter）からお問い合わせください。
+
+リンク
+
+  プライバシーポリシー（日本語）
+
+
+        </description>
+        <pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate>
+        <link>/nenpyo-maki-JP/</link>
+        <guid isPermaLink="true">/nenpyo-maki-JP/</guid>
+      </item>
+    
+      <item>
+        <title>iosアプリ、アブストラクトゲームズをリリースしました！</title>
+        
+        <dc:creator><![CDATA[ okapping ]]></dc:creator>
+        
+        <description>
+          
+          
+    
+    
+        iosボードゲームアプリ
+        「Abstract Games」をリリースしました！
+    
+    全機能 &quot;無料&quot; で公開中！！
+    
+        
+            
+        
+    
+    
+        
+            
+        
+    
+
+
+「テーマ性」や「運要素がない」ボードゲームを多数収録しております。
+
+収録ゲーム一覧
+
+現在遊べるゲーム
+
+
+  マルバツゲーム
+  コネクトフォー
+  リバーシ
+  うさぎと猟犬
+  ホースシュー
+
+
+今後追加予定
+
+
+  チェッカー
+  五目並べ
+  5五将棋
+  その他随時更新中
+
+
+アプリの特徴
+
+    
+      
+    
+  高い操作性
+
+操作のしやすさに重点を置いており、とてもシンプルなデザインになっています。
+スマートフォン操作が慣れない方でも安心してご利用いただけます。
+
+
+  
+    
+  
+  プライバシー
+
+お客様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。
+    全てオフラインで動作します。
+
+お問い合わせ
+操作方法の不明点等のご相談や、ゲームの追加等のご要望はいつでもお待ちしております。
+お気軽に下記メールや開発者X（Twitter）からお問い合わせください。
+
+リンク
+
+  プライバシーポリシー（日本語）
+  プライバシーポリシー（English）
+
+
+        </description>
+        <pubDate>Wed, 14 Jan 2026 00:00:00 +0900</pubDate>
+        <link>/abstract-games-JP/</link>
+        <guid isPermaLink="true">/abstract-games-JP/</guid>
+      </item>
+    
+  </channel>
+</rss>
