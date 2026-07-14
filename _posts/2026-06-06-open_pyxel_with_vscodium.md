@@ -11,9 +11,9 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
 そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。
 
 ### VSIXファイルをダウンロードする
-まず下記サイトにて、pyxelと検索し、
+まず[こちらのサイト](https://cypherpunksamurai.github.io/vsix-downloader-webui/)にて、pyxelと検索し、
 右側のボタンから、「Universal」を選択。
-https://cypherpunksamurai.github.io/vsix-downloader-webui/
+
 ![入力例](/assets/img/2026-06-06-open_pyxel_with_vscodium/image_1.jpg)
 
 ### VSCodiumで開く

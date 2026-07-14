@@ -11,37 +11,32 @@
 
   
 
-  <title>VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする | okapping's Hello My Friend</title>
+  <title>pyxel 角丸の四角形を描く | okapping's Hello My Friend</title>
 
   
   
   <meta name="author" content="okapping">
   
 
-  <meta name="description" content="VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。
-そんなVSCodiumにも拡張機能を入れることができますが、
-VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。
+  <meta name="description" content="角丸を描きたい
+pyxelでは、デフォルトでpyxel.rectが提供されており、四角形を描くことができます。
+しかし、実際に四角形を書く時は、少し角を丸くしたりしたいものです。（？）
+そんな時用に関数を作成しました。
 
-そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。
-
-VSIXファイルをダウンロードする
-まずこちらのサイトにて、pyxelと検索し、
-右側のボタンから、「Universal」を選択。
+draw_rrectが塗りつぶし、
+draw_rrectbが枠線のみです。
 
 
 
-VSCodiumで開く
-拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了
+若干苦戦したポイントは、角の円を描画する際に
+pyxel.clip(x, y, w, h)で、角っこのみを描画していることです。
 
 
-終わり
-pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。
 
-最初のリンクを見つけるのに若干苦労したため、ここに書き残します。
-
-VSCode拡張機能の公式ページからVSIXがダウンロードできるようになるといいのにと思いました。
-
-VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
+PyxelCodeMakerに上げてみた
+PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。
+というわけで下記PyxelCodeMakerにて上記関数のチェック可能です。
+PyxelCodeMaker">
 
   
 
@@ -104,31 +99,26 @@ VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
 
   
   <meta property="og:site_name" content="okapping's Hello My Friend">
-  <meta property="og:title" content="VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする | okapping's Hello My Friend">
-  <meta property="og:description" content="VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。
-そんなVSCodiumにも拡張機能を入れることができますが、
-VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。
+  <meta property="og:title" content="pyxel 角丸の四角形を描く | okapping's Hello My Friend">
+  <meta property="og:description" content="角丸を描きたい
+pyxelでは、デフォルトでpyxel.rectが提供されており、四角形を描くことができます。
+しかし、実際に四角形を書く時は、少し角を丸くしたりしたいものです。（？）
+そんな時用に関数を作成しました。
 
-そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。
-
-VSIXファイルをダウンロードする
-まずこちらのサイトにて、pyxelと検索し、
-右側のボタンから、「Universal」を選択。
+draw_rrectが塗りつぶし、
+draw_rrectbが枠線のみです。
 
 
 
-VSCodiumで開く
-拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了
+若干苦戦したポイントは、角の円を描画する際に
+pyxel.clip(x, y, w, h)で、角っこのみを描画していることです。
 
 
-終わり
-pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。
 
-最初のリンクを見つけるのに若干苦労したため、ここに書き残します。
-
-VSCode拡張機能の公式ページからVSIXがダウンロードできるようになるといいのにと思いました。
-
-VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
+PyxelCodeMakerに上げてみた
+PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。
+というわけで下記PyxelCodeMakerにて上記関数のチェック可能です。
+PyxelCodeMaker">
 
   
   <meta property="og:image" content="/assets/img/okapping/okapping_icon.png">
@@ -139,9 +129,9 @@ VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
   
   <meta property="og:article:author" content="okapping">
   
-  <meta property="og:article:published_time" content="2026-06-06T00:00:00+09:00">
-  <meta property="og:url" content="/open_pyxel_with_vscodium/">
-  <link rel="canonical" href="/open_pyxel_with_vscodium/">
+  <meta property="og:article:published_time" content="2026-07-14T00:00:00+09:00">
+  <meta property="og:url" content="/pyxel_rouded_rectangle/">
+  <link rel="canonical" href="/pyxel_rouded_rectangle/">
   
 
   
@@ -150,31 +140,26 @@ VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
   <meta name="twitter:site" content="@app_okapping">
   <meta name="twitter:creator" content="@app_okapping">
 
-  <meta property="twitter:title" content="VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする | okapping's Hello My Friend">
-  <meta property="twitter:description" content="VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。
-そんなVSCodiumにも拡張機能を入れることができますが、
-VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。
+  <meta property="twitter:title" content="pyxel 角丸の四角形を描く | okapping's Hello My Friend">
+  <meta property="twitter:description" content="角丸を描きたい
+pyxelでは、デフォルトでpyxel.rectが提供されており、四角形を描くことができます。
+しかし、実際に四角形を書く時は、少し角を丸くしたりしたいものです。（？）
+そんな時用に関数を作成しました。
 
-そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。
-
-VSIXファイルをダウンロードする
-まずこちらのサイトにて、pyxelと検索し、
-右側のボタンから、「Universal」を選択。
+draw_rrectが塗りつぶし、
+draw_rrectbが枠線のみです。
 
 
 
-VSCodiumで開く
-拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了
+若干苦戦したポイントは、角の円を描画する際に
+pyxel.clip(x, y, w, h)で、角っこのみを描画していることです。
 
 
-終わり
-pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。
 
-最初のリンクを見つけるのに若干苦労したため、ここに書き残します。
-
-VSCode拡張機能の公式ページからVSIXがダウンロードできるようになるといいのにと思いました。
-
-VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
+PyxelCodeMakerに上げてみた
+PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。
+というわけで下記PyxelCodeMakerにて上記関数のチェック可能です。
+PyxelCodeMaker">
 
   
   <meta name="twitter:image" content="/assets/img/okapping/okapping_icon.png">
@@ -272,12 +257,12 @@ VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする</h1>
+          <h1>pyxel 角丸の四角形を描く</h1>
           
           
            
             
-            <span class="post-meta">Posted on June 6, 2026</span>
+            <span class="post-meta">Posted on July 14, 2026</span>
             
             
           
@@ -303,30 +288,26 @@ VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。">
       
 
       <div class="blog-post">
-        <p>VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。<br />
-そんなVSCodiumにも拡張機能を入れることができますが、<br />
-VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。</p>
+        <h3 id="角丸を描きたい">角丸を描きたい</h3>
+<p>pyxelでは、デフォルトでpyxel.rectが提供されており、四角形を描くことができます。<br />
+しかし、実際に四角形を書く時は、少し角を丸くしたりしたいものです。（？）<br />
+そんな時用に関数を作成しました。</p>
 
-<p>そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。</p>
+<p>draw_rrectが塗りつぶし、
+draw_rrectbが枠線のみです。</p>
 
-<h3 id="vsixファイルをダウンロードする">VSIXファイルをダウンロードする</h3>
-<p>まず<a href="https://cypherpunksamurai.github.io/vsix-downloader-webui/">こちらのサイト</a>にて、pyxelと検索し、
-右側のボタンから、「Universal」を選択。</p>
+<script src="https://gist.github.com/okapping/6f90467210f67c16320f56c2ee50c4e9.js"></script>
 
-<p><img src="/assets/img/2026-06-06-open_pyxel_with_vscodium/image_1.jpg" alt="入力例" /></p>
+<p>若干苦戦したポイントは、角の円を描画する際に
+pyxel.clip(x, y, w, h)で、角っこのみを描画していることです。</p>
 
-<h3 id="vscodiumで開く">VSCodiumで開く</h3>
-<p>拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了
-<img src="/assets/img/2026-06-06-open_pyxel_with_vscodium/image_2.jpg" alt="入力例" /></p>
+<p><img src="/assets/img/2026-07-14-pyxel_rouded_rectangle//image1.png" alt="入力例" /></p>
 
-<h3 id="終わり">終わり</h3>
-<p>pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。</p>
+<h3 id="pyxelcodemakerに上げてみた">PyxelCodeMakerに上げてみた</h3>
+<p>PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。<br />
+というわけで下記PyxelCodeMakerにて上記関数のチェック可能です。<br />
+<a href="https://kitao.github.io/pyxel/web/code-maker/?gist=7ce88fec575cb3ac71439b3475b8e2d8">PyxelCodeMaker</a></p>
 
-<p>最初のリンクを見つけるのに若干苦労したため、ここに書き残します。</p>
-
-<p>VSCode拡張機能の公式ページからVSIXがダウンロードできるようになるといいのにと思いました。</p>
-
-<p>VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。</p>
 
       </div>
 
@@ -334,7 +315,7 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#VSCodium">VSCodium</a>
+            <a href="/tags#PYXEL">PYXEL</a>
           
         </div>
       
@@ -351,7 +332,7 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=VSCodium%E3%81%A7%E3%80%81VSCode%E3%81%AE%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%80%81pyxel%E3%82%92%E9%96%8B%E3%81%91%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B&url=%2Fopen_pyxel_with_vscodium%2F"
+    <a href="https://twitter.com/intent/tweet?text=pyxel+%E8%A7%92%E4%B8%B8%E3%81%AE%E5%9B%9B%E8%A7%92%E5%BD%A2%E3%82%92%E6%8F%8F%E3%81%8F&url=%2Fpyxel_rouded_rectangle%2F"
       class="btn btn-social-icon btn-twitter" title="Share on X (Twitter)">
       <span class="fab fa-fw fa-x-twitter" aria-hidden="true"></span>
       <span class="sr-only">X (Twitter)</span>
@@ -359,7 +340,7 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fopen_pyxel_with_vscodium%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fpyxel_rouded_rectangle%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -367,7 +348,7 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fopen_pyxel_with_vscodium%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fpyxel_rouded_rectangle%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -387,19 +368,12 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/yarn-folder-update-ver110/" data-toggle="tooltip" data-placement="top" title="毛糸ホルダーアップデートしました。(ver.1.1.1)">
+          <a class="page-link" href="/open_pyxel_with_vscodium/" data-toggle="tooltip" data-placement="top" title="VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする">
             <i class="fas fa-arrow-left" alt="Previous Post"></i>
             <span class="d-none d-sm-inline-block">Previous Post</span>
           </a>
         </li>
         
-        
-        <li class="page-item next">
-          <a class="page-link" href="/pyxel_rouded_rectangle/" data-toggle="tooltip" data-placement="top" title="pyxel 角丸の四角形を描く">
-            <span class="d-none d-sm-inline-block">Next Post</span>
-            <i class="fas fa-arrow-right" alt="Next Post"></i>
-          </a>
-        </li>
         
       </ul>
       

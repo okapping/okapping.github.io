@@ -12,6 +12,40 @@
     
     
       <item>
+        <title>pyxel 角丸の四角形を描く</title>
+        
+        <dc:creator><![CDATA[ okapping ]]></dc:creator>
+        
+        <description>
+          
+          角丸を描きたい
+pyxelでは、デフォルトでpyxel.rectが提供されており、四角形を描くことができます。
+しかし、実際に四角形を書く時は、少し角を丸くしたりしたいものです。（？）
+そんな時用に関数を作成しました。
+
+draw_rrectが塗りつぶし、
+draw_rrectbが枠線のみです。
+
+
+
+若干苦戦したポイントは、角の円を描画する際に
+pyxel.clip(x, y, w, h)で、角っこのみを描画していることです。
+
+
+
+PyxelCodeMakerに上げてみた
+PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。
+というわけで下記PyxelCodeMakerにて上記関数のチェック可能です。
+PyxelCodeMaker
+
+
+        </description>
+        <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+        <link>/pyxel_rouded_rectangle/</link>
+        <guid isPermaLink="true">/pyxel_rouded_rectangle/</guid>
+      </item>
+    
+      <item>
         <title>VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする</title>
         
         <dc:creator><![CDATA[ okapping ]]></dc:creator>
@@ -25,9 +59,9 @@ VSCodeの拡張機能をVSCodeと同じように検索して入れることは�
 そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。
 
 VSIXファイルをダウンロードする
-まず下記サイトにて、pyxelと検索し、
+まずこちらのサイトにて、pyxelと検索し、
 右側のボタンから、「Universal」を選択。
-https://cypherpunksamurai.github.io/vsix-downloader-webui/
+
 
 
 VSCodiumで開く

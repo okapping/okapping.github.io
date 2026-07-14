@@ -1,6 +1,14 @@
 [ 
  
 { 
+"title"    : "pyxel 角丸の四角形を描く", 
+"desc"     : "pyxel 角丸の四角形を描く", 
+"category" : "PYXEL", 
+"url"      : "/pyxel_rouded_rectangle/", 
+"date"     : "July 14, 2026" 
+}, 
+ 
+{ 
 "title"    : "VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする", 
 "desc"     : "VSCodiumで、VSCodeの拡張機能、pyxelを開けるようにする", 
 "category" : "VSCodium", 
@@ -86,6 +94,14 @@
 "desc"     : "Tag Index", 
 "category" : "page", 
 "url"      : "/tags/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Hello My Friend!!", 
+"desc"     : "Hello My Friend!!", 
+"category" : "page", 
+"url"      : "/page2/", 
 "date"     : "January 1, 1970" 
 } 
  
