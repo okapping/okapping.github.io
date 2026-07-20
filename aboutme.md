@@ -44,4 +44,4 @@ swift / python / php / javascript / html / css
   - YarnHolder
     - <a href="{{ site.yarn-holder.original-site }}" target="_blank">専用サイト</a>
 - 自作ゲーム
-  - <a href="https://kitao.github.io/pyxel/web/launcher/?run=okapping/GO_FROG/main/pyxel/main" target="_blank">GO FROG（このリンクから遊べます。）</a>
+  - <a href="https://okapping.github.io/GO_FROG/" target="_blank">GO FROG（このリンクから遊べます。）</a>

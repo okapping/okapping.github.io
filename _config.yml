@@ -15,7 +15,7 @@ yarn-holder:
   name: "YarnHolder"
   icon: "/assets/img/yarn-holder/yarn-holder-app-icon.png"
   download-link: "https://apps.apple.com/jp/app/yarn-holder/id6756721966"
-  original-site: "https://yarnholder.github.io/index.html"
+  original-site: "https://okapping.github.io/YarnHolder/"
 abstract-games:
   id: 2
   name: "Abstract Games"
@@ -54,10 +54,9 @@ author: okapping
 navbar-links:
   About Me: "aboutme"
   apps:
-    - Yarn Holder: "https://yarnholder.github.io/index.html"
+    - Yarn Holder: "https://okapping.github.io/YarnHolder/"
     - Abstract Games: "abstract-games-JP"
     - 年表巻き: "nenpyo-maki-JP"
-#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
