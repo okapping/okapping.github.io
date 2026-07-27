@@ -12,7 +12,7 @@ tags: [yarn-holder, ios-app]
 
 公式サイトも開設中。ぜひみてね。   
 ↓  
-<a href="https://yarnholder.github.io/index.html" target="_blank">
+<a href="{{ site.yarn-holder.original-site }}" target="_blank">
     <img
         style="width: 100px; margin: 10px"
         src="{{ site.yarn-holder.icon }}"
