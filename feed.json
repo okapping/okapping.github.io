@@ -1,0 +1,161 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "okapping&#x27;s Hello My Friend",
+    "description": "",
+    "home_page_url": "https://okapping.github.io",
+    "feed_url": "https://okapping.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "okapping"
+    },
+    "items": [
+        {
+            "id": "https://okapping.github.io/posts/pyxel-shape-click-evaluate/",
+            "url": "https://okapping.github.io/posts/pyxel-shape-click-evaluate/",
+            "title": "【pyxel】図形の中をクリックしたかを判定する",
+            "summary": "これだけ！ 四角い枠の中が押されたかどうかを判定します。&hellip;",
+            "content_html": "<h2>これだけ！</h2>\n<p>四角い枠の中が押されたかどうかを判定します。</p>\n<p>中身はこれだけ！</p>\n<pre class=\"language-python line-numbers\"><code>def is_click_inside_rect(self, x, y, w, h):\n    \"\"\"\n    四角形の中をクリックしたかどうか判定する\n    \"\"\"\n    if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):\n        if (\n            x &lt;= pyxel.mouse_x &lt; x+w\n            and y &lt;= pyxel.mouse_y &lt; y+h\n        ):\n            return True\n    return False</code></pre>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "個人開発",
+                   "Pyxel"
+            ],
+            "date_published": "2026-10-13T22:05:09+09:00",
+            "date_modified": "2026-10-13T22:14:26+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/open_pyxel_with_vscodium/",
+            "url": "https://okapping.github.io/posts/open_pyxel_with_vscodium/",
+            "title": "VSCodiumで、VSCodeの拡張機能を開く",
+            "summary": "VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。そんなVSCodiumにも拡張機能を入れることができますが、VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。 そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。&hellip;",
+            "content_html": "<p>VSCodiumは、VSCodeのオープンな部分だけで作成されたVSCodeです。そんなVSCodiumにも拡張機能を入れることができますが、VSCodeの拡張機能をVSCodeと同じように検索して入れることはできません。</p>\n<p>そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。</p>\n<h2>VSIXファイルをダウンロードする</h2>\n<p>まず<a href=\"https://cypherpunksamurai.github.io/vsix-downloader-webui/\" target=\"_blank\" rel=\"noopener noreferrer\">こちらのサイト</a>にて、pyxelと検索し、右側のボタンから、「Universal」を選択。</p>\n<p><img loading=\"lazy\" src=\"https://okapping.github.io/assets/img/2026-06-06-open_pyxel_with_vscodium/image_1.jpg\" alt=\"入力例\" data-is-external-image=\"true\"></p>\n<h2>VSCodiumで開く</h2>\n<p>拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了</p>\n<p><img loading=\"lazy\" src=\"https://okapping.github.io/assets/img/2026-06-06-open_pyxel_with_vscodium/image_2.jpg\" alt=\"入力例\" data-is-external-image=\"true\"></p>\n<h2>終わりに</h2>\n<p>pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。</p>\n<p>最初のリンクを見つけるのに若干苦労したため、ここに書き残します。</p>\n<p>VSCode拡張機能の公式ページからVSIXがダウンロードできるようになるといいのにと思いました。</p>\n<p>VSCodiumでpyxelを開きたい人に届いてくれれば幸いです。</p>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "個人開発",
+                   "Pyxel"
+            ],
+            "date_published": "2026-10-13T09:37:10+09:00",
+            "date_modified": "2026-10-13T13:40:40+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/obsidian-underline-h2-tag/",
+            "url": "https://okapping.github.io/posts/obsidian-underline-h2-tag/",
+            "title": "【Obsidian】h2タグに端っこまで下線を引く！",
+            "summary": "はじめに 最近Obsidianを使い始めました。&hellip;",
+            "content_html": "<h2 data-sourcepos=\"1:1-1:15\">はじめに</h2>\n<p data-sourcepos=\"2:1-6:89\">最近Obsidianを使い始めました。</p>\n<p data-sourcepos=\"2:1-6:89\">前々からメモを外部のサーバーに上げたくないと思っていたので、出会えてHAPPYです。</p>\n<p data-sourcepos=\"2:1-6:89\">このqiitaもそうですが、h2タグ（## ）の装飾は幅いっぱいに下線があるのが基本なイメージがあり、Obsidianで書いたときも幅いっぱいに下線を表示したくなりました。</p>\n<h2 data-sourcepos=\"8:1-8:30\"><span id=\"本題下線を引く\" class=\"fragment\"></span>（本題）下線を引く</h2>\n<p data-sourcepos=\"9:1-11:68\">余計なのはなし。下線を引くのみです！<code>.obsidian/snippets/style.css</code>に以下コピペして、<code>設定＞外観＞SCCスニペット</code>から読み込めは完成！</p>\n<pre class=\"language-css line-numbers\"><code>body {\n  --line-color: rgba(128,128,128,1);\n}\n/* リーディングモード */\n.markdown-rendered h2{\n  border-bottom: solid 2px var(--line-color)\n}\n\n/* ライブプレビューモード */\n.HyperMD-header-2 {\n  border-bottom: solid 2px var(--line-color)\n}</code></pre>\n<p data-sourcepos=\"27:1-29:122\">↓ライブプレビューモードも、プレビューも両対応しています。<br>（画像はライブプレビュー）</p>\n<p data-sourcepos=\"27:1-29:122\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F3113097%2F4832ec4e-29cf-4791-9c52-c308e5599855.png?ixlib=rb-4.1.1&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=585e98138630b410ad043ab0f01517f0\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F3113097%2F4832ec4e-29cf-4791-9c52-c308e5599855.png?ixlib=rb-4.1.1&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=f7b45c04d5e951577a76a9a20a33fa83 1x\" alt=\"image.png\" loading=\"lazy\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3113097/4832ec4e-29cf-4791-9c52-c308e5599855.png\" data-is-external-image=\"true\"></p>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "個人開発",
+                   "Obsidian"
+            ],
+            "date_published": "2026-08-08T21:57:00+09:00",
+            "date_modified": "2026-10-13T22:12:10+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/travel-between-two-points-in-a-fixed-amount-of-time/",
+            "url": "https://okapping.github.io/posts/travel-between-two-points-in-a-fixed-amount-of-time/",
+            "title": "【Pyxel】2地点を一定の時間で移動する",
+            "summary": "今作成しているゲームで、2地点を毎回一定の時間で移動したくなったため作成しました。 現在の地点から、クリックした地点を目指して、間を一定の時間で移動します。&hellip;",
+            "content_html": "<p><!-- obsidian --></p>\n<h2 data-heading=\"はじめに\">はじめに</h2>\n<p>今作成しているゲームで、2地点を毎回一定の時間で移動したくなったため作成しました。</p>\n<p>現在の地点から、クリックした地点を目指して、間を<strong>一定の時間</strong>で移動します。</p>\n<pre class=\"language-python line-numbers\"><code>import pyxel\n\n\nclass App:\n    def __init__(self):\n        pyxel.init(160, 120, title=\"move_constant_time\")\n        pyxel.mouse(True)\n        self.x = 0\n        self.y = 0\n        self.dx = 0\n        self.dy = 0\n        self.target_x = 0\n        self.target_y = 0\n        self.move_frame = 15\n        pyxel.run(self.update, self.draw)\n\n    def move_constant_time(self, x, y, dx, dy, target_x, target_y, move_frame):\n        \"\"\"\n        一定の時間で移動する\n        x, y: 現在の座標\n        dx, dy: 移動距離\n        target_x, target_y: 目的地の座標\n        time: 移動時間\n        \"\"\"\n        # ボタンを押したタイミングで移動速度を設定する\n        if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):\n            dx = (target_x - x) / move_frame\n            dy = (target_y - y) / move_frame\n        \n        # 次の座標\n        next_x = x + dx\n        next_y = y + dy\n    \n        # Xがターゲットを超えたら止める（クランプ）\n        if (dx &gt;= 0 and next_x &gt;= target_x) or (dx &lt;= 0 and next_x &lt;= target_x):\n            next_x = target_x\n    \n        # Yがターゲットを超えたら止める（クランプ）\n        if (dy &gt;= 0 and next_y &gt;= target_y) or (dy &lt;= 0 and next_y &lt;= target_y):\n            next_y = target_y\n    \n        x = next_x\n        y = next_y\n    \n        return x, y, dx, dy\n\n    def update(self):\n\n        # クリックした場所を移動座標にセットする\n        if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):\n            self.target_x, self.target_y = pyxel.mouse_x, pyxel.mouse_y\n\n        # 一定の時間で移動\n        self.x, self.y, self.dx, self.dy = self.move_constant_time(self.x, self.y, self.dx, self.dy, self.target_x, self.target_y, self.move_frame)\n\n    def draw(self):\n        pyxel.cls(0)\n        pyxel.circ(self.x, self.y, 3, 6)\n        \n        pyxel.pset(self.target_x, self.target_y, 10)\n\nApp()</code></pre>\n<h2>動作確認</h2>\n<p>pyxel code makerで動作確認できるようにしています。<br>ぜひご確認を↓<br><a href=\"https://kitao.github.io/pyxel/web/code-maker/?gist=e35910ad595bd3471603804118436ab9\" class=\"external-link\" target=\"_blank\" rel=\"noopener nofollow\" aria-label=\"https://kitao.github.io/pyxel/web/code-maker/?gist=e35910ad595bd3471603804118436ab9\" data-tooltip-position=\"top\">pyxel code maker</a></p>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "個人開発",
+                   "Pyxel"
+            ],
+            "date_published": "2026-08-08T21:55:00+09:00",
+            "date_modified": "2026-10-13T22:11:02+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/pyxel-draw_rounded_rectangle/",
+            "url": "https://okapping.github.io/posts/pyxel-draw_rounded_rectangle/",
+            "title": "【pyxel】角丸の四角形を描く",
+            "summary": "角丸を描きたい pyxelでは、デフォルトでpyxel.rectが提供されており、&hellip;",
+            "content_html": "<h2 id=\"角丸を描きたい\">角丸を描きたい</h2>\n<p>pyxelでは、デフォルトでpyxel.rectが提供されており、<br>これで四角形を描くことができます。</p><pre><code class=\"language-python\">rect(x, y, w, h, col)\n</code></pre>\n<p>しかし、実際に四角形を書く時は、少し角を丸くしたりしたいものです。（？）<br>そんな時用に関数を作成しました。</p><p>公式のpyxel.rect同様に、枠線のみverもあります。</p><h2 id=\"塗りつぶしver\">塗りつぶしver</h2>\n<pre><code class=\"language-python\">def draw_rrect(x, y, w, h, r, col):\n    &quot;&quot;&quot;角丸四角形を描く（塗りつぶし）\n    x, y: 左上の座標\n    w, h: 幅と高さ\n    r: 角の丸さ（半径）\n    col: 色\n    &quot;&quot;&quot;\n    # 中央の矩形を描く（上下）\n    pyxel.rect(x + r, y, w - 2*r, h, col)\n    # 中央の矩形を描く（左右）\n    pyxel.rect(x, y + r, w, h - 2*r, col)\n    \n    # 4つの角を円で描く\n    pyxel.circ(x + r, y + r, r, col)  # 左上\n    pyxel.circ(x + w - r - 1, y + r, r, col)  # 右上\n    pyxel.circ(x + r, y + h - r - 1, r, col)  # 左下\n    pyxel.circ(x + w - r - 1, y + h - r - 1, r, col)  # 右下\n</code></pre>\n<h2 id=\"枠線ver\">枠線ver</h2>\n<pre><code class=\"language-python\">def draw_rrectb(x, y, w, h, r, col):\n    &quot;&quot;&quot;角丸四角形の輪郭を描く（線のみ）\n    x, y: 左上の座標\n    w, h: 幅と高さ\n    r: 角の丸さ（半径）\n    col: 色\n    &quot;&quot;&quot;\n    # 4つの角の円弧\n    # 左上\n    pyxel.clip(x, y, r, r)\n    pyxel.circb(x + r, y + r, r, col)\n    # 右上\n    pyxel.clip(x + w - r, y, r, r)\n    pyxel.circb(x + w - r - 1, y + r, r, col)\n    # 左下\n    pyxel.clip(x, y + h - r, r, r)\n    pyxel.circb(x + r, y + h - r - 1, r, col)\n    # 右下\n    pyxel.clip(x + w - r, y + h - r, r, r)\n    pyxel.circb(x + w - r - 1, y + h - r - 1, r, col)\n    # clipの初期化\n    pyxel.clip()\n    \n    # 上下左右の直線\n    pyxel.line(x + r, y, x + w - r - 1, y, col)  # 上\n    pyxel.line(x + r, y + h - 1, x + w - r - 1, y + h - 1, col)  # 下\n    pyxel.line(x, y + r, x, y + h - r - 1, col)  # 左\n    pyxel.line(x + w - 1, y + r, x + w - 1, y + h - r - 1, col)  # 右\n</code></pre>\n<p>若干苦戦しましたが、ポイントは、角の円を描画する際に\npyxel.clip(x, y, w, h)で、角っこのみを描画していることです。</p><h2 id=\"完成図（全文）\">完成図（全文）</h2>\n<pre><code class=\"language-python\">import pyxel\n\ndef draw_rrect(x, y, w, h, r, col):\n    &quot;&quot;&quot;角丸四角形を描く（塗りつぶし）\n    x, y: 左上の座標\n    w, h: 幅と高さ\n    r: 角の丸さ（半径）\n    col: 色\n    &quot;&quot;&quot;\n    # 中央の矩形を描く（上下）\n    pyxel.rect(x + r, y, w - 2*r, h, col)\n    # 中央の矩形を描く（左右）\n    pyxel.rect(x, y + r, w, h - 2*r, col)\n    \n    # 4つの角を円で描く\n    pyxel.circ(x + r, y + r, r, col)  # 左上\n    pyxel.circ(x + w - r - 1, y + r, r, col)  # 右上\n    pyxel.circ(x + r, y + h - r - 1, r, col)  # 左下\n    pyxel.circ(x + w - r - 1, y + h - r - 1, r, col)  # 右下\n\ndef draw_rrectb(x, y, w, h, r, col):\n    &quot;&quot;&quot;角丸四角形の輪郭を描く（線のみ）\n    x, y: 左上の座標\n    w, h: 幅と高さ\n    r: 角の丸さ（半径）\n    col: 色\n    &quot;&quot;&quot;\n    # 4つの角の円弧\n    # 左上\n    pyxel.clip(x, y, r, r)\n    pyxel.circb(x + r, y + r, r, col)\n    # 右上\n    pyxel.clip(x + w - r, y, r, r)\n    pyxel.circb(x + w - r - 1, y + r, r, col)\n    # 左下\n    pyxel.clip(x, y + h - r, r, r)\n    pyxel.circb(x + r, y + h - r - 1, r, col)\n    # 右下\n    pyxel.clip(x + w - r, y + h - r, r, r)\n    pyxel.circb(x + w - r - 1, y + h - r - 1, r, col)\n    # clipの初期化\n    pyxel.clip()\n    \n    # 上下左右の直線\n    pyxel.line(x + r, y, x + w - r - 1, y, col)  # 上\n    pyxel.line(x + r, y + h - 1, x + w - r - 1, y + h - 1, col)  # 下\n    pyxel.line(x, y + r, x, y + h - r - 1, col)  # 左\n    pyxel.line(x + w - 1, y + r, x + w - 1, y + h - r - 1, col)  # 右\n\n# 使用例\npyxel.init(160, 120)\ndraw_rrect(50, 50, 80, 50, 15, 8)\ndraw_rrectb(10, 10, 80, 50, 15, 7)\npyxel.show()\n</code></pre>\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://okapping.github.io/media/posts/1/image1-2.png\" alt=\"Image description\" width=\"1324\" height=\"958\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://okapping.github.io/media/posts/1/responsive/image1-2-xs.png 640w ,https://okapping.github.io/media/posts/1/responsive/image1-2-sm.png 768w ,https://okapping.github.io/media/posts/1/responsive/image1-2-md.png 1024w ,https://okapping.github.io/media/posts/1/responsive/image1-2-lg.png 1366w ,https://okapping.github.io/media/posts/1/responsive/image1-2-xl.png 1600w ,https://okapping.github.io/media/posts/1/responsive/image1-2-2xl.png 1920w\"></figure><h2 id=\"pyxelcodemakerに上げてみた\">PyxelCodeMakerに上げてみた</h2>\n<p>PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。\nというわけで下記PyxelCodeMakerにて上記関数のチェック可能です。\n<a href=\"https://kitao.github.io/pyxel/web/code-maker/?gist=7ce88fec575cb3ac71439b3475b8e2d8\">https://kitao.github.io/pyxel/web/code-maker/?gist=7ce88fec575cb3ac71439b3475b8e2d8</a></p>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "個人開発",
+                   "Pyxel"
+            ],
+            "date_published": "2026-07-23T23:49:49+09:00",
+            "date_modified": "2026-10-13T21:56:37+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/yarn-folder-update-ver111/",
+            "url": "https://okapping.github.io/posts/yarn-folder-update-ver111/",
+            "title": "毛糸ホルダーアップデートしました。(ver.1.1.1)",
+            "summary": "毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。 毛糸の情報として保存している画像や、在庫の詳細として保存している画像を&hellip;",
+            "content_html": "<div class=\"blog-post\">\n<p>毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。</p>\n<h2 id=\"主な追加機能の紹介\">〜主な追加機能の紹介〜</h2>\n<h3 id=\"毛糸情報にギャラリータブを追加しました\">①毛糸情報にギャラリータブを追加しました。</h3>\n<p><img loading=\"lazy\" src=\"https://okapping.github.io/assets/img/2026-04-17-yarn-folder-update-ver110/01_add-gallery-tab.jpg\" alt=\"アプリ内のギャラリータブの画像\" data-is-external-image=\"true\"> 　毛糸の情報として保存している画像や、在庫の詳細として保存している画像を<br>　「ギャラリータブ」として一覧で確認できるようになりました。</p>\n<h3 id=\"毛糸情報のメモ欄を追加情報のタブへ移動しました\">②毛糸情報のメモ欄を追加情報のタブへ移動しました。</h3>\n<p><img loading=\"lazy\" src=\"https://okapping.github.io/assets/img/2026-04-17-yarn-folder-update-ver110/02-moved-memo_.jpg\" alt=\"アプリ内のメモ欄の画像\" data-is-external-image=\"true\"> 　これによりラベル情報タブがラベルの情報に専念できるようになりました。</p>\n<h3 id=\"画像が圧縮され動作と容量が軽くなるようになりました\">③画像が圧縮され、動作と容量が軽くなるようになりました。</h3>\n<p>これによりスムーズにギャラリータブを閲覧することができます。 ※以前までにアップロード済みの画像ファイルが存在する場合、ギャラリータブが重くなる可能性があります。 その場合は再度アップロードし直してみてください。</p>\n<h3 id=\"在庫の詳細画面にてラベルの情報が確認できるようになりました\">④在庫の詳細画面にて、ラベルの情報が確認できるようになりました。</h3>\n<p><img loading=\"lazy\" src=\"https://okapping.github.io/assets/img/2026-04-17-yarn-folder-update-ver110/03-showable-label-info.jpg\" alt=\"アプリ内のラベル情報の画像\" data-is-external-image=\"true\"></p>\n<p>在庫の詳細の確認中にもラベルの情報へ素早くアクセスすることができるようになりました。</p>\n<h3 id=\"その他不具合の修正\">その他不具合の修正</h3>\n<ul>\n<li>ipadにおいて全ての在庫から在庫情報を開いた時に、画面が切り替わらない不具合を修正しました。</li>\n<li>その他細かい微修正を行いました。</li>\n</ul>\n</div>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "毛糸ホルダー",
+                   "個人開発",
+                   "iOSアプリ"
+            ],
+            "date_published": "2026-04-17T10:29:00+09:00",
+            "date_modified": "2026-10-13T10:29:48+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/release-yarn-holder/",
+            "url": "https://okapping.github.io/posts/release-yarn-holder/",
+            "title": "毛糸管理アプリ、毛糸ホルダーをリリースしました！",
+            "summary": "この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！ （といっても昨年12月にはすでにリリースしてましたが。。。）&hellip;",
+            "content_html": "<div class=\"blog-post\">\n<p>この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！<br>（といっても昨年12月にはすでにリリースしてましたが。。。）</p>\n<p>公式サイトも開設中。ぜひみてね。<br>↓</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://okapping.github.io/media/posts/7/appIcon_resize.png\" alt=\"\" width=\"150\" height=\"150\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://okapping.github.io/media/posts/7/responsive/appIcon_resize-xs.png 640w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-sm.png 768w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-md.png 1024w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-lg.png 1366w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-xl.png 1600w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-2xl.png 1920w\"></figure>\n<p><a href=\"https://okapping.github.io/YarnHolder/\" target=\"_blank\" rel=\"noopener\"><br>毛糸ホルダー 公式サイト</a></p>\n<h2 id=\"こだわり\">こだわり</h2>\n<p>アプリを作るうえでの個人的なこだわりとして、<br>apple以外の外部のシステムを使わないようにしています。</p>\n<p>同じアプリをandroidにも出そうとしたり、広告を表示させたりする際には、<br>どうしても外部システムが必要になってしまいますが。</p>\n<p>あえてそれらを行わずに、appleデバイスに最適化された、<br>使いやすい＆洗礼された美しいアプリを（これから頑張って）提供していこうと思います。</p>\n<p>swiftは楽しくて最高です。</p>\n<p>このブログはアプリ開発関連や、趣味のことなどを載せてみようと思います。 ではまた。</p>\n</div>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "毛糸ホルダー",
+                   "個人開発",
+                   "iOSアプリ"
+            ],
+            "date_published": "2026-02-03T10:31:00+09:00",
+            "date_modified": "2026-10-13T13:40:06+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/release-nenpyo-maki/",
+            "url": "https://okapping.github.io/posts/release-nenpyo-maki/",
+            "title": "【iosアプリ】年表巻き",
+            "summary": "個人用年表管理アプリ 「年表巻き」をリリースしました！&hellip;",
+            "content_html": "<h2 class=\"align-center\">個人用年表管理アプリ<br>「年表巻き」をリリースしました！</h2>\n<h4 class=\"align-center\">全機能 \"無料\" で公開中！！</h4>\n<p> </p>\n<div class=\"align-center\"><figure class=\"post__image align-center\"><img loading=\"lazy\"  src=\"https://okapping.github.io/media/posts/17/app-icon-11.png\" alt=\"\" width=\"150\" height=\"150\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://okapping.github.io/media/posts/17/responsive/app-icon-11-xs.png 640w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-sm.png 768w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-md.png 1024w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-lg.png 1366w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-xl.png 1600w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-2xl.png 1920w\"></figure></div>\n<div class=\"align-center\"><a href=\"https://apps.apple.com/jp/app/%E5%B9%B4%E8%A1%A8%E5%B7%BB%E3%81%8D/id6758244948\" class=\"post__image\"></a><a href=\"https://apps.apple.com/jp/app/%E5%B9%B4%E8%A1%A8%E5%B7%BB%E3%81%8D/id6758244948\" class=\"post__image\" target=\"_blank\" rel=\"noopener noreferrer\"><figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://okapping.github.io/media/posts/17/app-download-badge-white-jp.svg\" alt=\"\" width=\"108.85157\" height=\"40\"></figure></a></div>\n<div class=\"align-center\">\n<div class=\"blog-post\">\n<h3 id=\"個人向けの年表管理アプリです\" class=\"align-left\">個人向けの年表管理アプリです。</h3>\n<p class=\"align-left\">「あれ何年前だっけな・・・？」とならないように、<br>自分の歴史や経歴をアプリで管理してみませんか？</p>\n<h2 id=\"アプリの特徴\" class=\"align-left\">アプリの特徴</h2>\n<h4 class=\"align-left\">👍 高い操作性</h4>\n<p class=\"align-left\">iosの基本の操作性に倣うことで、とてもシンプルなデザインになっており、<br>最初から作成を進めることができるように設計しております。</p>\n<h4 class=\"align-left\">🔐 プライバシー</h4>\n<p class=\"align-left\">お客様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。<br>デバイスの同期も行っておらず、完全にオフラインで動作します。</p>\n<h2 id=\"お問い合わせ\" class=\"align-left\">お問い合わせ</h2>\n<p class=\"align-left\">操作方法の不明点等のご相談や、追加機能等のご要望はいつでもお待ちしております。<br>お気軽に下記メールや開発者X（Twitter）からお問い合わせください。</p>\n<h2 id=\"リンク\" class=\"align-left\">リンク</h2>\n<ul>\n<li class=\"align-left\"><a href=\"https://okapping.github.io/privacy-policy-jp/\">プライバシーポリシー（日本語）</a></li>\n</ul>\n</div>\n</div>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "年表巻き",
+                   "個人開発",
+                   "iOSアプリ"
+            ],
+            "date_published": "2026-01-25T22:45:00+09:00",
+            "date_modified": "2026-10-13T23:28:04+09:00"
+        },
+        {
+            "id": "https://okapping.github.io/posts/release-abstract-games/",
+            "url": "https://okapping.github.io/posts/release-abstract-games/",
+            "title": "【iosアプリ】AbstractGames",
+            "summary": "iosボードゲームアプリ 「Abstract&hellip;",
+            "content_html": "<div class=\"blog-post\">\n<div>\n<h2 class=\"align-center\">iosボードゲームアプリ<br>「Abstract Games」をリリースしました！</h2>\n<h4 class=\"align-center\">全機能 \"無料\" で公開中！！</h4>\n<h4 class=\"align-center\"><figure class=\"post__image align-center\"><img loading=\"lazy\"  src=\"https://okapping.github.io/media/posts/11/abstractgames-iconnokohi.png\" alt=\"\" width=\"150\" height=\"150\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://okapping.github.io/media/posts/11/responsive/abstractgames-iconnokohi-xs.png 640w ,https://okapping.github.io/media/posts/11/responsive/abstractgames-iconnokohi-sm.png 768w ,https://okapping.github.io/media/posts/11/responsive/abstractgames-iconnokohi-md.png 1024w ,https://okapping.github.io/media/posts/11/responsive/abstractgames-iconnokohi-lg.png 1366w ,https://okapping.github.io/media/posts/11/responsive/abstractgames-iconnokohi-xl.png 1600w ,https://okapping.github.io/media/posts/11/responsive/abstractgames-iconnokohi-2xl.png 1920w\"></figure><a href=\"https://apps.apple.com/jp/app/abstract-games/id6757924743\" class=\"post__image align-center\" target=\"_blank\" rel=\"noopener noreferrer\"></a></h4>\n<h4 class=\"align-center\"><a href=\"https://apps.apple.com/jp/app/abstract-games/id6757924743\" class=\"post__image align-center\" target=\"_blank\" rel=\"noopener noreferrer\"><figure class=\"post__image align-right\"><img loading=\"lazy\"  src=\"https://okapping.github.io/media/posts/11/app-download-badge-white-jp.svg\" alt=\"\" width=\"108.85157\" height=\"40\"></figure></a></h4>\n</div>\n<h4 id=\"テーマ性や運要素がないボードゲームを多数収録しております\">「テーマ性」や「運要素がない」ボードゲームを多数収録しております。</h4>\n<h2 id=\"収録ゲーム一覧\">収録ゲーム一覧</h2>\n<h4 id=\"現在遊べるゲーム\">現在遊べるゲーム</h4>\n<ul>\n<li>マルバツゲーム</li>\n<li>コネクトフォー</li>\n<li>リバーシ</li>\n<li>うさぎと猟犬</li>\n<li>ホースシュー</li>\n</ul>\n<h4 id=\"今後追加予定\">今後追加予定</h4>\n<ul>\n<li>チェッカー</li>\n<li>五目並べ</li>\n<li>5五将棋</li>\n<li>その他随時更新中</li>\n</ul>\n<h3 id=\"アプリの特徴\">アプリの特徴</h3>\n<h4>👍 高い操作性</h4>\n<p>操作のしやすさに重点を置いており、とてもシンプルなデザインになっています。<br>スマートフォン操作が慣れない方でも安心してご利用いただけます。</p>\n<h4>🔐 プライバシー</h4>\n<p>お客様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。<br>全てオフラインで動作します。</p>\n<h2 id=\"お問い合わせ\">お問い合わせ</h2>\n<p>操作方法の不明点等のご相談や、ゲームの追加等のご要望はいつでもお待ちしております。<br>お気軽に下記メールや開発者X（Twitter）からお問い合わせください。</p>\n<h2 id=\"リンク\">リンク</h2>\n<ul>\n<li><a href=\"https://okapping.github.io/privacy-policy-jp-2/\" target=\"_blank\" rel=\"noopener noreferrer\">プライバシーポリシー（日本語）</a></li>\n<li><a href=\"https://okapping.github.io/abstract-games-privacy-policy-en/\" target=\"_blank\" rel=\"noopener noreferrer\">プライバシーポリシー（English）</a></li>\n</ul>\n</div>",
+            "author": {
+                "name": "okapping"
+            },
+            "tags": [
+                   "個人開発",
+                   "iOSアプリ",
+                   "AbsgtractGames"
+            ],
+            "date_published": "2026-01-14T12:00:00+09:00",
+            "date_modified": "2026-10-13T23:35:36+09:00"
+        }
+    ]
+}

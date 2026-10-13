@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://okapping.github.io/sitemap.xml
