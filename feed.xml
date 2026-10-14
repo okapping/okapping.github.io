@@ -3,12 +3,96 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-10-14T22:44:17+09:00</updated>
+    <updated>2026-10-14T23:43:17+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
     <id>https://okapping.github.io</id>
 
+    <entry>
+        <title>【pyxel】作成したパターン紹介！</title>
+        <author>
+            <name>okapping</name>
+        </author>
+        <link href="https://okapping.github.io/posts/pyxel-zuo-cheng-sitapatanshao-jie/"/>
+        <id>https://okapping.github.io/posts/pyxel-zuo-cheng-sitapatanshao-jie/</id>
+            <category term="個人開発"/>
+            <category term="Pyxel"/>
+
+        <updated>2026-10-14T23:43:09+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    はじめに。 個人開発で恐縮ですが、pyxelでパターンメーカーなるものを作成しました。&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>はじめに。</h2>
+<p>個人開発で恐縮ですが、pyxelでパターンメーカーなるものを作成しました。</p>
+<p><a href="https://okapping.github.io/pattern-maker/" target="_blank" rel="noopener noreferrer">ぱたーんめーかー</a></p>
+<p>多分自分しか使ってないツールですが、これで作ったパターンを公開します。</p>
+<p>著作権的なのは何もなしで、無制限に利用いただいて大丈夫です。（恐ろしく簡単なものばかりなので恐縮ですが。）</p>
+<p>各項目２枚目の画像は画面いっぱいに敷き詰めた時のイメージなので、それを見つつ、一枚目をダウンロードしてね。</p>
+<p>そしてぱたーんめーかー使ってみてね！</p>
+<h3>唐草模様（緑色）</h3>
+<p>これが作りたくて、ツールごと作った...💦</p>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="2" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231657.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231657-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142618.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142618-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>唐草模様（紺色）</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231717.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231717-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142633.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142633-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>よくある石製の壁</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231154.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231154-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142650.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142650-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>お花</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_233858.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_233858-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-143903.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-143903-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>りんごのマーク</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_233734.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_233734-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-143740.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-143740-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>紺色の正方形タイル</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261004_230759.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261004_230759-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142659.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142659-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>水面</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232012.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232012-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142654.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142654-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>古い木の床</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232015.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232015-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142647.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142647-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>ギンガムチェック（赤）</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232027.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232027-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142643.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142643-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>ギンガムチェック（青）</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232141.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232141-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142639.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142639-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+<h3>市松模様</h3>
+<div class="gallery-wrapper"><div class="gallery" data-translation="画像の追加" data-columns="3" data-is-empty="false">
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232030.png" data-size="16x16"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pattern_20261014_232030-thumbnail.png" alt="" width="16" height="16"></a></figure>
+<figure class="gallery__item"><a href="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142612.png" data-size="512x512"><img loading="lazy" src="https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142612-thumbnail.png" alt="" width="512" height="512"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>【pyxel】図形の中をクリックしたかを判定する</title>
         <author>
@@ -120,7 +204,7 @@
         </content>
     </entry>
     <entry>
-        <title>【Pyxel】2地点を一定の時間で移動する</title>
+        <title>【pyxel】2地点を一定の時間で移動する</title>
         <author>
             <name>okapping</name>
         </author>
