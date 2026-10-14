@@ -3,7 +3,7 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-10-13T23:35:36+09:00</updated>
+    <updated>2026-10-14T22:44:17+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
@@ -66,10 +66,10 @@
 <p>そこで、VSCodeの拡張機能の、VSIXファイルをダウンロードして、それをVSCodiumから開く形で、VSCodiumから使えるようにします。</p>
 <h2>VSIXファイルをダウンロードする</h2>
 <p>まず<a href="https://cypherpunksamurai.github.io/vsix-downloader-webui/" target="_blank" rel="noopener noreferrer">こちらのサイト</a>にて、pyxelと検索し、右側のボタンから、「Universal」を選択。</p>
-<p><img loading="lazy" src="https://okapping.github.io/assets/img/2026-06-06-open_pyxel_with_vscodium/image_1.jpg" alt="入力例" data-is-external-image="true"></p>
+<figure class="post__image"><img loading="lazy"  style="font-size: inherit; outline: oklch(0.64 0.199 254 / 0.55) solid 3px !important;" src="https://okapping.github.io/media/posts/5/image_1.jpg" alt="入力例" width="1280" height="714" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/5/responsive/image_1-xs.jpg 640w ,https://okapping.github.io/media/posts/5/responsive/image_1-sm.jpg 768w ,https://okapping.github.io/media/posts/5/responsive/image_1-md.jpg 1024w ,https://okapping.github.io/media/posts/5/responsive/image_1-lg.jpg 1366w ,https://okapping.github.io/media/posts/5/responsive/image_1-xl.jpg 1600w ,https://okapping.github.io/media/posts/5/responsive/image_1-2xl.jpg 1920w"></figure>
 <h2>VSCodiumで開く</h2>
 <p>拡張機能を開き、三点リーダー「…」から「VSIXからのインストール」を押し、先ほどダウンロードしたファイルを開いて完了</p>
-<p><img loading="lazy" src="https://okapping.github.io/assets/img/2026-06-06-open_pyxel_with_vscodium/image_2.jpg" alt="入力例" data-is-external-image="true"></p>
+<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/5/image_2.jpg" alt="" width="1280" height="660" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/5/responsive/image_2-xs.jpg 640w ,https://okapping.github.io/media/posts/5/responsive/image_2-sm.jpg 768w ,https://okapping.github.io/media/posts/5/responsive/image_2-md.jpg 1024w ,https://okapping.github.io/media/posts/5/responsive/image_2-lg.jpg 1366w ,https://okapping.github.io/media/posts/5/responsive/image_2-xl.jpg 1600w ,https://okapping.github.io/media/posts/5/responsive/image_2-2xl.jpg 1920w"></figure>
 <h2>終わりに</h2>
 <p>pyxelを自身がダウンロードしたい拡張機能名に置き換えることで動作すると思います。</p>
 <p>最初のリンクを見つけるのに若干苦労したため、ここに書き残します。</p>
@@ -115,7 +115,7 @@
   border-bottom: solid 2px var(--line-color)
 }</code></pre>
 <p data-sourcepos="27:1-29:122">↓ライブプレビューモードも、プレビューも両対応しています。<br>（画像はライブプレビュー）</p>
-<p data-sourcepos="27:1-29:122"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F3113097%2F4832ec4e-29cf-4791-9c52-c308e5599855.png?ixlib=rb-4.1.1&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=585e98138630b410ad043ab0f01517f0" srcset="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F3113097%2F4832ec4e-29cf-4791-9c52-c308e5599855.png?ixlib=rb-4.1.1&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=f7b45c04d5e951577a76a9a20a33fa83 1x" alt="image.png" loading="lazy" data-canonical-src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3113097/4832ec4e-29cf-4791-9c52-c308e5599855.png" data-is-external-image="true"></p>
+<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/15/image1.avif" alt="" width="1410" height="1356" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/15/responsive/image1-xs.avif 640w ,https://okapping.github.io/media/posts/15/responsive/image1-sm.avif 768w ,https://okapping.github.io/media/posts/15/responsive/image1-md.avif 1024w ,https://okapping.github.io/media/posts/15/responsive/image1-lg.avif 1366w ,https://okapping.github.io/media/posts/15/responsive/image1-xl.avif 1600w ,https://okapping.github.io/media/posts/15/responsive/image1-2xl.avif 1920w"></figure>
             ]]>
         </content>
     </entry>
@@ -204,7 +204,9 @@ class App:
 
 App()</code></pre>
 <h2>動作確認</h2>
+<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/14/image1.gif" alt="" width="320" height="240"></figure>
 <p>pyxel code makerで動作確認できるようにしています。<br>ぜひご確認を↓<br><a href="https://kitao.github.io/pyxel/web/code-maker/?gist=e35910ad595bd3471603804118436ab9" class="external-link" target="_blank" rel="noopener nofollow" aria-label="https://kitao.github.io/pyxel/web/code-maker/?gist=e35910ad595bd3471603804118436ab9" data-tooltip-position="top">pyxel code maker</a></p>
+<p>余談ですが、pyxel code makerでも、option+3でgifのダウンロードができるんですね！すごい！</p>
             ]]>
         </content>
     </entry>
