@@ -38,16 +38,8 @@
 <lastmod>2026-10-15T00:30:42+09:00</lastmod>
 </url>
 <url>
-<loc>https://okapping.github.io/posts/pyxel-draw_rounded_rectangle/</loc>
-<lastmod>2026-10-13T21:56:37+09:00</lastmod>
-<image:image>
-<image:loc>https://okapping.github.io/media/posts/1/image1-2.png</image:loc>
-<image:title><![CDATA[Image description]]></image:title>
-</image:image>
-</url>
-<url>
-<loc>https://okapping.github.io/posts/pyxel-pattern-intro/</loc>
-<lastmod>2026-10-15T21:46:35+09:00</lastmod>
+<loc>https://okapping.github.io/posts/pyxel-created-patterns/</loc>
+<lastmod>2026-10-15T21:50:52+09:00</lastmod>
 <image:image>
 <image:loc>https://okapping.github.io/media/posts/19/gallery/pattern_20261014_231657-thumbnail.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -135,6 +127,14 @@
 <image:image>
 <image:loc>https://okapping.github.io/media/posts/19/gallery/pyxel-20261014-142612-thumbnail.png</image:loc>
 <image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://okapping.github.io/posts/pyxel-draw_rounded_rectangle/</loc>
+<lastmod>2026-10-13T21:56:37+09:00</lastmod>
+<image:image>
+<image:loc>https://okapping.github.io/media/posts/1/image1-2.png</image:loc>
+<image:title><![CDATA[Image description]]></image:title>
 </image:image>
 </url>
 <url>

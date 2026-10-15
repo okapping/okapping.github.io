@@ -3,7 +3,7 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-10-15T21:46:35+09:00</updated>
+    <updated>2026-10-15T21:50:52+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
@@ -55,8 +55,8 @@
         <author>
             <name>okapping</name>
         </author>
-        <link href="https://okapping.github.io/posts/pyxel-pattern-intro/"/>
-        <id>https://okapping.github.io/posts/pyxel-pattern-intro/</id>
+        <link href="https://okapping.github.io/posts/pyxel-created-patterns/"/>
+        <id>https://okapping.github.io/posts/pyxel-created-patterns/</id>
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
