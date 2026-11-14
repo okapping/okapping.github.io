@@ -3,12 +3,43 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-10-15T21:50:52+09:00</updated>
+    <updated>2026-11-14T22:23:51+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
     <id>https://okapping.github.io</id>
 
+    <entry>
+        <title>【pyxel】ぱたーんめーかー更新(2026/11/14)</title>
+        <author>
+            <name>okapping</name>
+        </author>
+        <link href="https://okapping.github.io/posts/update-pattern-maker-261114/"/>
+        <id>https://okapping.github.io/posts/update-pattern-maker-261114/</id>
+        <media:content url="https://okapping.github.io/media/posts/21/hatanmeka.png" medium="image" />
+            <category term="個人開発"/>
+            <category term="Pyxel"/>
+
+        <updated>2026-11-14T22:16:47+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/21/hatanmeka.png" alt="" />
+                    ぱたーんめーかーを更新しました。 ぱたーんめーかー&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/21/hatanmeka.png" class="type:primaryImage" alt="" /></p>
+                <p>ぱたーんめーかーを更新しました。</p>
+<p><a href="https://okapping.github.io/pattern-maker/" target="_blank" rel="noopener noreferrer">ぱたーんめーかー</a></p>
+<p>今までは16*16のサイズのパターンしか作れなかったのですが、今回のアップデートで最小で「8」最大で「48」までのサイズを作成できるようになりました！</p>
+<p>↓一覧画面からNEWを押した後に、サイズを選択する画面が増えています。</p>
+<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/21/pyxel-20261114-124800.png" alt="" width="512" height="512" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/21/responsive/pyxel-20261114-124800-xs.png 640w ,https://okapping.github.io/media/posts/21/responsive/pyxel-20261114-124800-sm.png 768w ,https://okapping.github.io/media/posts/21/responsive/pyxel-20261114-124800-md.png 1024w ,https://okapping.github.io/media/posts/21/responsive/pyxel-20261114-124800-lg.png 1366w ,https://okapping.github.io/media/posts/21/responsive/pyxel-20261114-124800-xl.png 1600w ,https://okapping.github.io/media/posts/21/responsive/pyxel-20261114-124800-2xl.png 1920w"></figure>
+<p>任意の大きさのパターンが作成できるようになった為、どうしても奇数のサイズが良いという場合に対応できるようになりました。</p>
+<p>次はどこアップデートしようかなあ。</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>【Publii】日本語のファイルを更新した</title>
         <author>
@@ -539,50 +570,6 @@ pyxel.show()
 <p>あえてそれらを行わずに、appleデバイスに最適化された、<br>使いやすい＆洗礼された美しいアプリを（これから頑張って）提供していこうと思います。</p>
 <p>swiftは楽しくて最高です。</p>
 <p>このブログはアプリ開発関連や、趣味のことなどを載せてみようと思います。 ではまた。</p>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>【iosアプリ】年表巻き</title>
-        <author>
-            <name>okapping</name>
-        </author>
-        <link href="https://okapping.github.io/posts/release-nenpyo-maki/"/>
-        <id>https://okapping.github.io/posts/release-nenpyo-maki/</id>
-            <category term="年表巻き"/>
-            <category term="個人開発"/>
-            <category term="iOSアプリ"/>
-
-        <updated>2026-01-25T22:45:00+09:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    個人用年表管理アプリ 「年表巻き」をリリースしました！&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2 class="align-center">個人用年表管理アプリ<br>「年表巻き」をリリースしました！</h2>
-<h4 class="align-center">全機能 "無料" で公開中！！</h4>
-<p> </p>
-<div class="align-center"><figure class="post__image align-center"><img loading="lazy"  src="https://okapping.github.io/media/posts/17/app-icon-11.png" alt="" width="150" height="150" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/17/responsive/app-icon-11-xs.png 640w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-sm.png 768w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-md.png 1024w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-lg.png 1366w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-xl.png 1600w ,https://okapping.github.io/media/posts/17/responsive/app-icon-11-2xl.png 1920w"></figure></div>
-<div class="align-center"><a href="https://apps.apple.com/jp/app/%E5%B9%B4%E8%A1%A8%E5%B7%BB%E3%81%8D/id6758244948" class="post__image"></a><a href="https://apps.apple.com/jp/app/%E5%B9%B4%E8%A1%A8%E5%B7%BB%E3%81%8D/id6758244948" class="post__image" target="_blank" rel="noopener noreferrer"><figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/17/app-download-badge-white-jp.svg" alt="" width="108.85157" height="40"></figure></a></div>
-<div class="align-center">
-<div class="blog-post">
-<h3 id="個人向けの年表管理アプリです" class="align-left">個人向けの年表管理アプリです。</h3>
-<p class="align-left">「あれ何年前だっけな・・・？」とならないように、<br>自分の歴史や経歴をアプリで管理してみませんか？</p>
-<h2 id="アプリの特徴" class="align-left">アプリの特徴</h2>
-<h4 class="align-left">👍 高い操作性</h4>
-<p class="align-left">iosの基本の操作性に倣うことで、とてもシンプルなデザインになっており、<br>最初から作成を進めることができるように設計しております。</p>
-<h4 class="align-left">🔐 プライバシー</h4>
-<p class="align-left">お客様のプライバシーを第１に考えており、本アプリではお客様のデータは収集せず、また広告も表示致しません。<br>デバイスの同期も行っておらず、完全にオフラインで動作します。</p>
-<h2 id="お問い合わせ" class="align-left">お問い合わせ</h2>
-<p class="align-left">操作方法の不明点等のご相談や、追加機能等のご要望はいつでもお待ちしております。<br>お気軽に下記メールや開発者X（Twitter）からお問い合わせください。</p>
-<h2 id="リンク" class="align-left">リンク</h2>
-<ul>
-<li class="align-left"><a href="https://okapping.github.io/nenpyo-maki-privacy-policy-jp/">プライバシーポリシー（日本語）</a></li>
-</ul>
-</div>
 </div>
             ]]>
         </content>
