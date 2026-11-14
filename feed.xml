@@ -3,7 +3,7 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-11-14T23:25:35+09:00</updated>
+    <updated>2026-11-15T00:10:34+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
@@ -16,20 +16,20 @@
         </author>
         <link href="https://okapping.github.io/posts/update-pattern-maker-261114/"/>
         <id>https://okapping.github.io/posts/update-pattern-maker-261114/</id>
-        <media:content url="https://okapping.github.io/media/posts/21/hatanmeka-2.webp" medium="image" />
+        <media:content url="https://okapping.github.io/media/posts/21/hatanmeka.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-11-14T22:16:47+09:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://okapping.github.io/media/posts/21/hatanmeka-2.webp" alt="" />
+                        <img src="https://okapping.github.io/media/posts/21/hatanmeka.webp" alt="" />
                     ぱたーんめーかーを更新しました。 ぱたーんめーかー&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://okapping.github.io/media/posts/21/hatanmeka-2.webp" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://okapping.github.io/media/posts/21/hatanmeka.webp" class="type:primaryImage" alt="" /></p>
                 <p>ぱたーんめーかーを更新しました。</p>
 <p><a href="https://okapping.github.io/pattern-maker/" target="_blank" rel="noopener noreferrer">ぱたーんめーかー</a></p>
 <p>今までは16*16のサイズのパターンしか作れなかったのですが、今回のアップデートで最小で「8」最大で「48」までのサイズを作成できるようになりました！</p>
@@ -88,20 +88,20 @@
         </author>
         <link href="https://okapping.github.io/posts/pyxel-created-patterns/"/>
         <id>https://okapping.github.io/posts/pyxel-created-patterns/</id>
-        <media:content url="https://okapping.github.io/media/posts/19/hatanmeka.webp" medium="image" />
+        <media:content url="https://okapping.github.io/media/posts/19/hatanmeka-2.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-10-14T23:43:09+09:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://okapping.github.io/media/posts/19/hatanmeka.webp" alt="" />
+                        <img src="https://okapping.github.io/media/posts/19/hatanmeka-2.webp" alt="" />
                     はじめに。 個人開発で恐縮ですが、pyxelでパターンメーカーなるものを作成しました。&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://okapping.github.io/media/posts/19/hatanmeka.webp" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://okapping.github.io/media/posts/19/hatanmeka-2.webp" class="type:primaryImage" alt="" /></p>
                 <h2>はじめに。</h2>
 <p>個人開発で恐縮ですが、pyxelでパターンメーカーなるものを作成しました。</p>
 <p><a href="https://okapping.github.io/pattern-maker/" target="_blank" rel="noopener noreferrer">ぱたーんめーかー</a></p>
