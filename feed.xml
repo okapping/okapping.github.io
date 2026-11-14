@@ -3,7 +3,7 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-11-14T22:23:51+09:00</updated>
+    <updated>2026-11-14T23:25:35+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
@@ -16,20 +16,20 @@
         </author>
         <link href="https://okapping.github.io/posts/update-pattern-maker-261114/"/>
         <id>https://okapping.github.io/posts/update-pattern-maker-261114/</id>
-        <media:content url="https://okapping.github.io/media/posts/21/hatanmeka.png" medium="image" />
+        <media:content url="https://okapping.github.io/media/posts/21/hatanmeka-2.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-11-14T22:16:47+09:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://okapping.github.io/media/posts/21/hatanmeka.png" alt="" />
+                        <img src="https://okapping.github.io/media/posts/21/hatanmeka-2.webp" alt="" />
                     ぱたーんめーかーを更新しました。 ぱたーんめーかー&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://okapping.github.io/media/posts/21/hatanmeka.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://okapping.github.io/media/posts/21/hatanmeka-2.webp" class="type:primaryImage" alt="" /></p>
                 <p>ぱたーんめーかーを更新しました。</p>
 <p><a href="https://okapping.github.io/pattern-maker/" target="_blank" rel="noopener noreferrer">ぱたーんめーかー</a></p>
 <p>今までは16*16のサイズのパターンしか作れなかったのですが、今回のアップデートで最小で「8」最大で「48」までのサイズを作成できるようになりました！</p>
@@ -88,17 +88,20 @@
         </author>
         <link href="https://okapping.github.io/posts/pyxel-created-patterns/"/>
         <id>https://okapping.github.io/posts/pyxel-created-patterns/</id>
+        <media:content url="https://okapping.github.io/media/posts/19/hatanmeka.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-10-14T23:43:09+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/19/hatanmeka.webp" alt="" />
                     はじめに。 個人開発で恐縮ですが、pyxelでパターンメーカーなるものを作成しました。&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/19/hatanmeka.webp" class="type:primaryImage" alt="" /></p>
                 <h2>はじめに。</h2>
 <p>個人開発で恐縮ですが、pyxelでパターンメーカーなるものを作成しました。</p>
 <p><a href="https://okapping.github.io/pattern-maker/" target="_blank" rel="noopener noreferrer">ぱたーんめーかー</a></p>
@@ -172,17 +175,20 @@
         </author>
         <link href="https://okapping.github.io/posts/pyxel-shape-click-evaluate/"/>
         <id>https://okapping.github.io/posts/pyxel-shape-click-evaluate/</id>
+        <media:content url="https://okapping.github.io/media/posts/16/pyxel_header.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-10-13T22:05:09+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/16/pyxel_header.webp" alt="" />
                     これだけ！ 四角い枠の中が押されたかどうかを判定します。&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/16/pyxel_header.webp" class="type:primaryImage" alt="" /></p>
                 <h2>これだけ！</h2>
 <p>四角い枠の中が押されたかどうかを判定します。</p>
 <p>中身はこれだけ！</p>
@@ -282,17 +288,20 @@
         </author>
         <link href="https://okapping.github.io/posts/travel-between-two-points-in-a-fixed-amount-of-time/"/>
         <id>https://okapping.github.io/posts/travel-between-two-points-in-a-fixed-amount-of-time/</id>
+        <media:content url="https://okapping.github.io/media/posts/14/pyxel_header.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-08-08T21:55:00+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/14/pyxel_header.webp" alt="" />
                     今作成しているゲームで、2地点を毎回一定の時間で移動したくなったため作成しました。 現在の地点から、クリックした地点を目指して、間を一定の時間で移動します。&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/14/pyxel_header.webp" class="type:primaryImage" alt="" /></p>
                 <p><!-- obsidian --></p>
 <h2 data-heading="はじめに">はじめに</h2>
 <p>今作成しているゲームで、2地点を毎回一定の時間で移動したくなったため作成しました。</p>
@@ -373,17 +382,20 @@ App()</code></pre>
         </author>
         <link href="https://okapping.github.io/posts/pyxel-draw_rounded_rectangle/"/>
         <id>https://okapping.github.io/posts/pyxel-draw_rounded_rectangle/</id>
+        <media:content url="https://okapping.github.io/media/posts/1/pyxel_header.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Pyxel"/>
 
         <updated>2026-07-23T23:49:49+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/1/pyxel_header.webp" alt="" />
                     角丸を描きたい pyxelでは、デフォルトでpyxel.rectが提供されており、&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/1/pyxel_header.webp" class="type:primaryImage" alt="" /></p>
                 <h2 id="角丸を描きたい">角丸を描きたい</h2>
 <p>pyxelでは、デフォルトでpyxel.rectが提供されており、<br>これで四角形を描くことができます。</p><pre><code class="language-python">rect(x, y, w, h, col)
 </code></pre>
@@ -507,6 +519,7 @@ pyxel.show()
         </author>
         <link href="https://okapping.github.io/posts/yarn-folder-update-ver111/"/>
         <id>https://okapping.github.io/posts/yarn-folder-update-ver111/</id>
+        <media:content url="https://okapping.github.io/media/posts/6/yarn_holder.webp" medium="image" />
             <category term="毛糸ホルダー"/>
             <category term="個人開発"/>
             <category term="iOSアプリ"/>
@@ -514,11 +527,13 @@ pyxel.show()
         <updated>2026-04-17T10:29:00+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/6/yarn_holder.webp" alt="" />
                     毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。 毛糸の情報として保存している画像や、在庫の詳細として保存している画像を&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/6/yarn_holder.webp" class="type:primaryImage" alt="" /></p>
                 <div class="blog-post">
 <p>毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。</p>
 <h2 id="主な追加機能の紹介">〜主な追加機能の紹介〜</h2>
@@ -547,6 +562,7 @@ pyxel.show()
         </author>
         <link href="https://okapping.github.io/posts/release-yarn-holder/"/>
         <id>https://okapping.github.io/posts/release-yarn-holder/</id>
+        <media:content url="https://okapping.github.io/media/posts/7/yarn_holder.webp" medium="image" />
             <category term="毛糸ホルダー"/>
             <category term="個人開発"/>
             <category term="iOSアプリ"/>
@@ -554,11 +570,13 @@ pyxel.show()
         <updated>2026-02-03T10:31:00+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/7/yarn_holder.webp" alt="" />
                     この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！ （といっても昨年12月にはすでにリリースしてましたが。。。）&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/7/yarn_holder.webp" class="type:primaryImage" alt="" /></p>
                 <div class="blog-post">
 <p>この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！<br>（といっても昨年12月にはすでにリリースしてましたが。。。）</p>
 <p>公式サイトも開設中。ぜひみてね。<br>↓</p>
