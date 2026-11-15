@@ -3,7 +3,7 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-11-15T00:10:34+09:00</updated>
+    <updated>2026-11-15T00:21:56+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
@@ -214,7 +214,6 @@
         <link href="https://okapping.github.io/posts/open_pyxel_with_vscodium/"/>
         <id>https://okapping.github.io/posts/open_pyxel_with_vscodium/</id>
             <category term="個人開発"/>
-            <category term="Pyxel"/>
 
         <updated>2026-10-13T09:37:10+09:00</updated>
             <summary type="html">
@@ -538,13 +537,12 @@ pyxel.show()
 <p>毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。</p>
 <h2 id="主な追加機能の紹介">〜主な追加機能の紹介〜</h2>
 <h3 id="毛糸情報にギャラリータブを追加しました">①毛糸情報にギャラリータブを追加しました。</h3>
-<p><img loading="lazy" src="https://okapping.github.io/assets/img/2026-04-17-yarn-folder-update-ver110/01_add-gallery-tab.jpg" alt="アプリ内のギャラリータブの画像" data-is-external-image="true"> 　毛糸の情報として保存している画像や、在庫の詳細として保存している画像を<br>　「ギャラリータブ」として一覧で確認できるようになりました。</p>
+<p>毛糸の情報として保存している画像や、在庫の詳細として保存している画像を<br>　「ギャラリータブ」として一覧で確認できるようになりました。</p>
 <h3 id="毛糸情報のメモ欄を追加情報のタブへ移動しました">②毛糸情報のメモ欄を追加情報のタブへ移動しました。</h3>
-<p><img loading="lazy" src="https://okapping.github.io/assets/img/2026-04-17-yarn-folder-update-ver110/02-moved-memo_.jpg" alt="アプリ内のメモ欄の画像" data-is-external-image="true"> 　これによりラベル情報タブがラベルの情報に専念できるようになりました。</p>
+<p>これによりラベル情報タブがラベルの情報に専念できるようになりました。</p>
 <h3 id="画像が圧縮され動作と容量が軽くなるようになりました">③画像が圧縮され、動作と容量が軽くなるようになりました。</h3>
 <p>これによりスムーズにギャラリータブを閲覧することができます。 ※以前までにアップロード済みの画像ファイルが存在する場合、ギャラリータブが重くなる可能性があります。 その場合は再度アップロードし直してみてください。</p>
 <h3 id="在庫の詳細画面にてラベルの情報が確認できるようになりました">④在庫の詳細画面にて、ラベルの情報が確認できるようになりました。</h3>
-<p><img loading="lazy" src="https://okapping.github.io/assets/img/2026-04-17-yarn-folder-update-ver110/03-showable-label-info.jpg" alt="アプリ内のラベル情報の画像" data-is-external-image="true"></p>
 <p>在庫の詳細の確認中にもラベルの情報へ素早くアクセスすることができるようになりました。</p>
 <h3 id="その他不具合の修正">その他不具合の修正</h3>
 <ul>
