@@ -3,12 +3,53 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-11-15T23:50:20+09:00</updated>
+    <updated>2026-11-16T00:36:10+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
     <id>https://okapping.github.io</id>
 
+    <entry>
+        <title>【swiftUI】sheetを開いた直後のfocus時に、toolbarの.keyboadが表示されない</title>
+        <author>
+            <name>okapping</name>
+        </author>
+        <link href="https://okapping.github.io/posts/swiftui-auto-focus-apply/"/>
+        <id>https://okapping.github.io/posts/swiftui-auto-focus-apply/</id>
+        <media:content url="https://okapping.github.io/media/posts/23/swiftui.webp" medium="image" />
+            <category term="個人開発"/>
+            <category term="swiftUI"/>
+
+        <updated>2026-11-16T00:36:10+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/23/swiftui.webp" alt="" />
+                    sheetを開いた直後に、フィールドにフォーカスして、ユーザーの入力動線をわかりやすくスムーズにすることはよくあると思います。 ただ、ios26での挙動をみると従来通りではいかなくなっていたのですが、&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/23/swiftui.webp" class="type:primaryImage" alt="" /></p>
+                <p>sheetを開いた直後に、フィールドにフォーカスして、ユーザーの入力動線をわかりやすくスムーズにすることはよくあると思います。</p>
+<p>ただ、ios26での挙動をみると従来通りではいかなくなっていたのですが、</p>
+<p>通常onAppearでfocusを当てるところを、遅延してfocusしてあげることで改善しました。</p>
+<pre class="language-swift line-numbers"><code>// OLD
+.onAppear{
+    self.focus = true
+}
+// NEW
+.onAppear{
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+        self.focus = true
+    }
+}</code></pre>
+<p>非同期にすることで改善。これはあるあるですね。</p>
+<p><code>self.focus</code>にしないといけない点。注意です。</p>
+<p> </p>
+<p>ではでは。</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>【swiftUI】toolbar の.keyboardの完了ボタンが真ん中に来てしまう件</title>
         <author>
@@ -104,17 +145,20 @@
         </author>
         <link href="https://okapping.github.io/posts/publii-jp-lang-update/"/>
         <id>https://okapping.github.io/posts/publii-jp-lang-update/</id>
+        <media:content url="https://okapping.github.io/media/posts/20/Publii.webp" medium="image" />
             <category term="個人開発"/>
             <category term="Publii"/>
 
         <updated>2026-10-15T00:05:24+09:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/20/Publii.webp" alt="" />
                     はじめに 最近静的CMSであるPubliiを使ってブログを始めたのですが、&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/20/Publii.webp" class="type:primaryImage" alt="" /></p>
                 <h2>はじめに</h2>
 <p>最近静的CMSであるPubliiを使ってブログを始めたのですが、</p>
 <p>日本語の対応が古いままで、ページ関連の部分などが日本語化対応されていない状態でした。</p>
@@ -565,48 +609,6 @@ pyxel.show()
 <p>PyxelCodeMakerで書いて、SaveボタンからGistで保存すると、PyxelCodeMakerのリンクで共有が可能になるようです。
 というわけで下記PyxelCodeMakerにて上記関数のチェック可能です。
 <a href="https://kitao.github.io/pyxel/web/code-maker/?gist=7ce88fec575cb3ac71439b3475b8e2d8">https://kitao.github.io/pyxel/web/code-maker/?gist=7ce88fec575cb3ac71439b3475b8e2d8</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>毛糸ホルダーアップデートしました。(ver.1.1.1)</title>
-        <author>
-            <name>okapping</name>
-        </author>
-        <link href="https://okapping.github.io/posts/yarn-folder-update-ver111/"/>
-        <id>https://okapping.github.io/posts/yarn-folder-update-ver111/</id>
-        <media:content url="https://okapping.github.io/media/posts/6/yarn_holder.webp" medium="image" />
-            <category term="毛糸ホルダー"/>
-            <category term="個人開発"/>
-            <category term="iOSアプリ"/>
-
-        <updated>2026-04-17T10:29:00+09:00</updated>
-            <summary type="html">
-                <![CDATA[
-                        <img src="https://okapping.github.io/media/posts/6/yarn_holder.webp" alt="" />
-                    毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。 毛糸の情報として保存している画像や、在庫の詳細として保存している画像を&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://okapping.github.io/media/posts/6/yarn_holder.webp" class="type:primaryImage" alt="" /></p>
-                <div class="blog-post">
-<p>毛糸管理アプリ「毛糸ホルダー」アップデートしました。バグ修正以外の初めての機能のアップデートになります。</p>
-<h2 id="主な追加機能の紹介">〜主な追加機能の紹介〜</h2>
-<h3 id="毛糸情報にギャラリータブを追加しました">①毛糸情報にギャラリータブを追加しました。</h3>
-<p>毛糸の情報として保存している画像や、在庫の詳細として保存している画像を<br>　「ギャラリータブ」として一覧で確認できるようになりました。</p>
-<h3 id="毛糸情報のメモ欄を追加情報のタブへ移動しました">②毛糸情報のメモ欄を追加情報のタブへ移動しました。</h3>
-<p>これによりラベル情報タブがラベルの情報に専念できるようになりました。</p>
-<h3 id="画像が圧縮され動作と容量が軽くなるようになりました">③画像が圧縮され、動作と容量が軽くなるようになりました。</h3>
-<p>これによりスムーズにギャラリータブを閲覧することができます。 ※以前までにアップロード済みの画像ファイルが存在する場合、ギャラリータブが重くなる可能性があります。 その場合は再度アップロードし直してみてください。</p>
-<h3 id="在庫の詳細画面にてラベルの情報が確認できるようになりました">④在庫の詳細画面にて、ラベルの情報が確認できるようになりました。</h3>
-<p>在庫の詳細の確認中にもラベルの情報へ素早くアクセスすることができるようになりました。</p>
-<h3 id="その他不具合の修正">その他不具合の修正</h3>
-<ul>
-<li>ipadにおいて全ての在庫から在庫情報を開いた時に、画面が切り替わらない不具合を修正しました。</li>
-<li>その他細かい微修正を行いました。</li>
-</ul>
-</div>
             ]]>
         </content>
     </entry>

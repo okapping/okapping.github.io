@@ -32,7 +32,11 @@
 </url>
 <url>
 <loc>https://okapping.github.io/posts/publii-jp-lang-update/</loc>
-<lastmod>2026-10-15T00:30:42+09:00</lastmod>
+<lastmod>2026-11-15T23:55:22+09:00</lastmod>
+<image:image>
+<image:loc>https://okapping.github.io/media/posts/20/Publii.webp</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://okapping.github.io/posts/pyxel-created-patterns/</loc>
@@ -183,6 +187,14 @@
 </image:image>
 <image:image>
 <image:loc>https://okapping.github.io/media/posts/7/appIcon_resize.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://okapping.github.io/posts/swiftui-auto-focus-apply/</loc>
+<lastmod>2026-11-16T00:36:10+09:00</lastmod>
+<image:image>
+<image:loc>https://okapping.github.io/media/posts/23/swiftui.webp</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
