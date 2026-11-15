@@ -3,12 +3,69 @@
     <title>okapping&#x27;s Hello My Friend</title>
     <link href="https://okapping.github.io/feed.xml" rel="self" />
     <link href="https://okapping.github.io" />
-    <updated>2026-11-15T00:21:56+09:00</updated>
+    <updated>2026-11-15T23:50:20+09:00</updated>
     <author>
         <name>okapping</name>
     </author>
     <id>https://okapping.github.io</id>
 
+    <entry>
+        <title>【swiftUI】toolbar の.keyboardの完了ボタンが真ん中に来てしまう件</title>
+        <author>
+            <name>okapping</name>
+        </author>
+        <link href="https://okapping.github.io/posts/swiftui-toolbar-keyboad-button-position/"/>
+        <id>https://okapping.github.io/posts/swiftui-toolbar-keyboad-button-position/</id>
+        <media:content url="https://okapping.github.io/media/posts/22/swiftui.webp" medium="image" />
+            <category term="個人開発"/>
+            <category term="swiftUI"/>
+
+        <updated>2026-11-15T23:50:20+09:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://okapping.github.io/media/posts/22/swiftui.webp" alt="" />
+                    ios26への対応をずいぶんと怠っていました。 重い腰が上がり見直してみると、修正すべき点がたくさんありました。&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://okapping.github.io/media/posts/22/swiftui.webp" class="type:primaryImage" alt="" /></p>
+                <p>ios26への対応をずいぶんと怠っていました。</p>
+<p>重い腰が上がり見直してみると、修正すべき点がたくさんありました。</p>
+<p>その中で自分がつまづいていたところの共有です。（大体全部つまづいています。）</p>
+<h2>目的</h2>
+<p>これを</p>
+<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/22/IMG_6475.webp" alt="" width="200" height="213" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/22/responsive/IMG_6475-xs.webp 640w ,https://okapping.github.io/media/posts/22/responsive/IMG_6475-sm.webp 768w ,https://okapping.github.io/media/posts/22/responsive/IMG_6475-md.webp 1024w ,https://okapping.github.io/media/posts/22/responsive/IMG_6475-lg.webp 1366w ,https://okapping.github.io/media/posts/22/responsive/IMG_6475-xl.webp 1600w ,https://okapping.github.io/media/posts/22/responsive/IMG_6475-2xl.webp 1920w"></figure>
+<p>こうしたい</p>
+<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/22/IMG_6476.webp" alt="" width="200" height="213" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/22/responsive/IMG_6476-xs.webp 640w ,https://okapping.github.io/media/posts/22/responsive/IMG_6476-sm.webp 768w ,https://okapping.github.io/media/posts/22/responsive/IMG_6476-md.webp 1024w ,https://okapping.github.io/media/posts/22/responsive/IMG_6476-lg.webp 1366w ,https://okapping.github.io/media/posts/22/responsive/IMG_6476-xl.webp 1600w ,https://okapping.github.io/media/posts/22/responsive/IMG_6476-2xl.webp 1920w"></figure>
+<h2>どうすれば良いか。</h2>
+<p>元のソースはこうなっていました。</p>
+<pre class="language-swift line-numbers"><code>ToolbarItem(placement: .keyboard){
+    HStack{
+        Spacer()
+        Button{
+            focus = false
+        }label: {
+            Text("完了")
+        }
+    }
+}</code></pre>
+<p><code>ToolbarItem</code>の中に<code>HStack</code>を入れていた部分を<code>ToolbarItemGroup</code>にして、<code>HStack</code>を無くして直接<code>Spacer()</code>と<code>Button()</code>を入れれば良いだけです。</p>
+<pre class="language-swift line-numbers"><code>ToolbarItemGroup(placement: .keyboard){
+    Spacer()
+    Button{
+        focus = false
+    }label: {
+        Text("完了")
+    }
+}</code></pre>
+<p> </p>
+<h2>参考</h2>
+<p><a href="https://bleepingswift.com/blog/keyboard-toolbar-swiftui">https://bleepingswift.com/blog/keyboard-toolbar-swiftui</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>【pyxel】ぱたーんめーかー更新(2026/11/14)</title>
         <author>
@@ -549,43 +606,6 @@ pyxel.show()
 <li>ipadにおいて全ての在庫から在庫情報を開いた時に、画面が切り替わらない不具合を修正しました。</li>
 <li>その他細かい微修正を行いました。</li>
 </ul>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>毛糸管理アプリ、毛糸ホルダーをリリースしました！</title>
-        <author>
-            <name>okapping</name>
-        </author>
-        <link href="https://okapping.github.io/posts/release-yarn-holder/"/>
-        <id>https://okapping.github.io/posts/release-yarn-holder/</id>
-        <media:content url="https://okapping.github.io/media/posts/7/yarn_holder.webp" medium="image" />
-            <category term="毛糸ホルダー"/>
-            <category term="個人開発"/>
-            <category term="iOSアプリ"/>
-
-        <updated>2026-02-03T10:31:00+09:00</updated>
-            <summary type="html">
-                <![CDATA[
-                        <img src="https://okapping.github.io/media/posts/7/yarn_holder.webp" alt="" />
-                    この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！ （といっても昨年12月にはすでにリリースしてましたが。。。）&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://okapping.github.io/media/posts/7/yarn_holder.webp" class="type:primaryImage" alt="" /></p>
-                <div class="blog-post">
-<p>この度、毛糸管理アプリ「YarnHolder（毛糸ホルダー）」をリリースしました！<br>（といっても昨年12月にはすでにリリースしてましたが。。。）</p>
-<p>公式サイトも開設中。ぜひみてね。<br>↓</p>
-<figure class="post__image"><img loading="lazy"  src="https://okapping.github.io/media/posts/7/appIcon_resize.png" alt="" width="150" height="150" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://okapping.github.io/media/posts/7/responsive/appIcon_resize-xs.png 640w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-sm.png 768w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-md.png 1024w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-lg.png 1366w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-xl.png 1600w ,https://okapping.github.io/media/posts/7/responsive/appIcon_resize-2xl.png 1920w"></figure>
-<p><a href="https://okapping.github.io/YarnHolder/" target="_blank" rel="noopener"><br>毛糸ホルダー 公式サイト</a></p>
-<h2 id="こだわり">こだわり</h2>
-<p>アプリを作るうえでの個人的なこだわりとして、<br>apple以外の外部のシステムを使わないようにしています。</p>
-<p>同じアプリをandroidにも出そうとしたり、広告を表示させたりする際には、<br>どうしても外部システムが必要になってしまいますが。</p>
-<p>あえてそれらを行わずに、appleデバイスに最適化された、<br>使いやすい＆洗礼された美しいアプリを（これから頑張って）提供していこうと思います。</p>
-<p>swiftは楽しくて最高です。</p>
-<p>このブログはアプリ開発関連や、趣味のことなどを載せてみようと思います。 ではまた。</p>
 </div>
             ]]>
         </content>
